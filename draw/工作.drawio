@@ -1,9 +1,111 @@
-<mxfile host="app.diagrams.net" modified="2024-01-04T08:07:46.575Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" version="22.1.16" etag="Z9PpMeYKG6FDaOes4grO" type="github">
+<mxfile host="app.diagrams.net" modified="2024-01-04T08:07:56.990Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="rmPmrYdGPJok7mIbUFeq" version="22.1.16" type="github">
   <diagram name="第 1 页" id="KqfpGg_a_y9sjLg6dXOu">
-    <mxGraphModel>
+    <mxGraphModel dx="794" dy="-749" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="PW3jciAnSIEAU2WzRlxM-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="PW3jciAnSIEAU2WzRlxM-2" target="PW3jciAnSIEAU2WzRlxM-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PW3jciAnSIEAU2WzRlxM-2" value="报告中" style="rounded=0;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="57.5" y="2060" width="72.5" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="PW3jciAnSIEAU2WzRlxM-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="PW3jciAnSIEAU2WzRlxM-9" target="PW3jciAnSIEAU2WzRlxM-17">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="414" y="2010" />
+              <mxPoint x="414" y="2010" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PW3jciAnSIEAU2WzRlxM-4" value="风险转入" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="PW3jciAnSIEAU2WzRlxM-3">
+          <mxGeometry x="0.0533" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PW3jciAnSIEAU2WzRlxM-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="PW3jciAnSIEAU2WzRlxM-9" target="PW3jciAnSIEAU2WzRlxM-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PW3jciAnSIEAU2WzRlxM-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="PW3jciAnSIEAU2WzRlxM-9" target="PW3jciAnSIEAU2WzRlxM-21">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="414" y="2170" />
+              <mxPoint x="414" y="2170" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PW3jciAnSIEAU2WzRlxM-7" value="超出处置期限内未进行处置&lt;br&gt;风险级别会进行升级" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="PW3jciAnSIEAU2WzRlxM-6">
+          <mxGeometry x="-0.2133" y="-3" relative="1" as="geometry">
+            <mxPoint x="4" y="21" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PW3jciAnSIEAU2WzRlxM-8" value="、" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="PW3jciAnSIEAU2WzRlxM-6">
+          <mxGeometry x="0.1267" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PW3jciAnSIEAU2WzRlxM-9" value="处置中&lt;br&gt;（根据风险级别定期处置）" style="rounded=0;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="376" y="2060" width="75" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="PW3jciAnSIEAU2WzRlxM-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="PW3jciAnSIEAU2WzRlxM-16" target="PW3jciAnSIEAU2WzRlxM-9">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="310" y="2080" />
+              <mxPoint x="310" y="2080" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PW3jciAnSIEAU2WzRlxM-11" value="风险反馈" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="PW3jciAnSIEAU2WzRlxM-10">
+          <mxGeometry x="0.0256" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PW3jciAnSIEAU2WzRlxM-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="PW3jciAnSIEAU2WzRlxM-16" target="PW3jciAnSIEAU2WzRlxM-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PW3jciAnSIEAU2WzRlxM-13" value="风险转入" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="PW3jciAnSIEAU2WzRlxM-12">
+          <mxGeometry x="-0.332" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PW3jciAnSIEAU2WzRlxM-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="PW3jciAnSIEAU2WzRlxM-16" target="PW3jciAnSIEAU2WzRlxM-21">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="243" y="2140" />
+              <mxPoint x="243" y="2140" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PW3jciAnSIEAU2WzRlxM-15" value="超出处置期限内未进行处置&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;风险级别会进行升级" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="PW3jciAnSIEAU2WzRlxM-14">
+          <mxGeometry x="-0.1733" y="1" relative="1" as="geometry">
+            <mxPoint x="1" y="-45" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PW3jciAnSIEAU2WzRlxM-16" value="已报告" style="rounded=0;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="205" y="2060" width="75" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="PW3jciAnSIEAU2WzRlxM-17" value="已转入项目整体风险" style="rounded=0;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="376" y="1920" width="75" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="PW3jciAnSIEAU2WzRlxM-18" value="已办结" style="rounded=0;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="556" y="2060" width="75" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="PW3jciAnSIEAU2WzRlxM-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="PW3jciAnSIEAU2WzRlxM-21" target="PW3jciAnSIEAU2WzRlxM-9">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="530" y="2270" />
+              <mxPoint x="530" y="2090" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PW3jciAnSIEAU2WzRlxM-20" value="风险期限更新" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="PW3jciAnSIEAU2WzRlxM-19">
+          <mxGeometry x="-0.0224" y="-2" relative="1" as="geometry">
+            <mxPoint x="1" y="-4" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PW3jciAnSIEAU2WzRlxM-21" value="已超期" style="rounded=0;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="376" y="2250" width="75" height="40" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>

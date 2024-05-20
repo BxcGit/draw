@@ -1,9 +1,63 @@
-<mxfile host="app.diagrams.net" modified="2024-05-19T13:57:22.897Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" version="23.1.6" etag="SyFSQ2cr_-Sves5g7Dtu" type="github">
+<mxfile host="app.diagrams.net" modified="2024-05-20T01:51:38.029Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="UigMNDCHvzsJ91XO_VXy" version="24.4.4" type="github">
   <diagram name="第 1 页" id="yCEXyqZC5k3sVarJoaqL">
-    <mxGraphModel>
+    <mxGraphModel dx="794" dy="420" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="DD2qoCeYXoURekG3GAQ2-1" value="" style="rounded=0;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="360" y="90" width="75" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="DD2qoCeYXoURekG3GAQ2-2" value="CP" style="rounded=0;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="360" y="100" width="75" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="DD2qoCeYXoURekG3GAQ2-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="DD2qoCeYXoURekG3GAQ2-3" target="DD2qoCeYXoURekG3GAQ2-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="DD2qoCeYXoURekG3GAQ2-3" value="Method" style="rounded=0;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="360" y="150" width="75" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="DD2qoCeYXoURekG3GAQ2-4" value="Field" style="rounded=0;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="360" y="200" width="75" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="DD2qoCeYXoURekG3GAQ2-5" value="Klass" style="rounded=0;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="360" y="250" width="75" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="DD2qoCeYXoURekG3GAQ2-6" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;labelPosition=left;verticalLabelPosition=middle;align=right;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="330" y="90" width="20" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="DD2qoCeYXoURekG3GAQ2-7" value="Klass" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="280" y="180" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="DD2qoCeYXoURekG3GAQ2-8" value="OOP" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="80" width="70" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="DD2qoCeYXoURekG3GAQ2-9" value="在jvm中，用oop来代表java中的类&lt;div&gt;然后使用Klass来对应jvm中的对象&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="200" y="320" width="200" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="DD2qoCeYXoURekG3GAQ2-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="DD2qoCeYXoURekG3GAQ2-10" target="DD2qoCeYXoURekG3GAQ2-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="DD2qoCeYXoURekG3GAQ2-10" value="继承的类" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="528" y="162" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="DD2qoCeYXoURekG3GAQ2-11" value="" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="528" y="192" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="DD2qoCeYXoURekG3GAQ2-12" value="" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="528" y="222" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="DD2qoCeYXoURekG3GAQ2-14" value="VTB" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="538" y="132" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="DD2qoCeYXoURekG3GAQ2-20" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="DD2qoCeYXoURekG3GAQ2-17" target="DD2qoCeYXoURekG3GAQ2-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="DD2qoCeYXoURekG3GAQ2-17" value="方法签名" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="638" y="162" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="DD2qoCeYXoURekG3GAQ2-18" value="方法签名" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="738" y="162" width="70" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>

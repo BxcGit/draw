@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-05-22T11:23:33.536Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="Vsb83CfkjW70AJTvTS1L" version="24.4.5" type="github">
+<mxfile host="app.diagrams.net" modified="2024-05-22T14:56:44.424Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="iDzkRik83TFA6mlK-aRG" version="24.4.5" type="github">
   <diagram name="第 1 页" id="M_x8-9DKoYfC3ThnBNaP">
     <mxGraphModel dx="794" dy="420" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -93,6 +93,36 @@
         </mxCell>
         <mxCell id="aGrZsIu07CaAuVC8-_KM-7" value="controller" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f0a30a;fontColor=#000000;strokeColor=#BD7000;" vertex="1" parent="1">
           <mxGeometry x="280" y="135" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="aGrZsIu07CaAuVC8-_KM-8" value="node01" style="rounded=0;whiteSpace=wrap;html=1;align=center;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="110" y="610" width="150" height="290" as="geometry" />
+        </mxCell>
+        <mxCell id="aGrZsIu07CaAuVC8-_KM-9" value="node02" style="rounded=0;whiteSpace=wrap;html=1;align=center;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="275" y="610" width="150" height="290" as="geometry" />
+        </mxCell>
+        <mxCell id="aGrZsIu07CaAuVC8-_KM-10" value="node03" style="rounded=0;whiteSpace=wrap;html=1;align=center;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="450" y="610" width="150" height="290" as="geometry" />
+        </mxCell>
+        <mxCell id="aGrZsIu07CaAuVC8-_KM-11" value="node04" style="rounded=0;whiteSpace=wrap;html=1;align=center;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="610" y="610" width="150" height="290" as="geometry" />
+        </mxCell>
+        <mxCell id="aGrZsIu07CaAuVC8-_KM-12" value="zk" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="650" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="aGrZsIu07CaAuVC8-_KM-13" value="zk" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="510" y="650" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="aGrZsIu07CaAuVC8-_KM-14" value="zk" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="670" y="650" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="aGrZsIu07CaAuVC8-_KM-15" value="kafka-broker0&lt;div&gt;controller&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="130" y="820" width="80" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="aGrZsIu07CaAuVC8-_KM-16" value="kafka-broker1" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="285" y="820" width="80" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="aGrZsIu07CaAuVC8-_KM-17" value="kafka-broker2" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="460" y="820" width="80" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

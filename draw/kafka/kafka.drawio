@@ -1,9 +1,12 @@
-<mxfile host="app.diagrams.net" modified="2024-05-22T15:35:58.556Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="3WOCz80mwbh-5NWXYgsz" version="24.4.5" type="github">
+<mxfile host="app.diagrams.net" modified="2024-05-22T15:46:36.334Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="Gwz547MzMA1k_xLiLlfm" version="24.4.5" type="github">
   <diagram name="第 1 页" id="M_x8-9DKoYfC3ThnBNaP">
-    <mxGraphModel dx="934" dy="494" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="794" dy="420" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="aGrZsIu07CaAuVC8-_KM-38" value="group" style="rounded=0;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fillColor=#ffff88;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="365" y="990" width="375" height="70" as="geometry" />
+        </mxCell>
         <mxCell id="SnEAZ-Wm8pNj-YNNooDd-13" value="brocker-2&lt;div&gt;JVM&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=center;verticalAlign=top;horizontal=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
           <mxGeometry x="260" y="300" width="380" height="170" as="geometry" />
         </mxCell>
@@ -179,6 +182,9 @@
         </mxCell>
         <mxCell id="aGrZsIu07CaAuVC8-_KM-37" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;小记&lt;/h1&gt;&lt;div&gt;一个partition不会分到两个comsumer;&lt;/div&gt;&lt;div&gt;但是两个partition可以分给一个comsumer&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="5" y="1080" width="365" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="aGrZsIu07CaAuVC8-_KM-39" value="如果没有顺序上的约束的话：水平扩展&lt;div&gt;消息(V)&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;一旦消息（消息很多，但是消息种类一定多）而且需要同一类消息的有序性，&lt;span style=&quot;background-color: initial;&quot;&gt;消息（K，V）相同的key一定会去到一个分区里，broker会保证producer推送消息的顺序性&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;一个分区可能有不同的Key&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fillColor=#ffff88;strokeColor=none;horizontal=1;align=left;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="30" y="1200" width="350" height="140" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-05-22T15:46:36.334Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="Gwz547MzMA1k_xLiLlfm" version="24.4.5" type="github">
+<mxfile host="app.diagrams.net" modified="2024-05-22T16:01:32.146Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="dFc_8whEPe3YxsWULT6a" version="24.4.5" type="github">
   <diagram name="第 1 页" id="M_x8-9DKoYfC3ThnBNaP">
     <mxGraphModel dx="794" dy="420" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -183,8 +183,104 @@
         <mxCell id="aGrZsIu07CaAuVC8-_KM-37" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;小记&lt;/h1&gt;&lt;div&gt;一个partition不会分到两个comsumer;&lt;/div&gt;&lt;div&gt;但是两个partition可以分给一个comsumer&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="5" y="1080" width="365" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="aGrZsIu07CaAuVC8-_KM-39" value="如果没有顺序上的约束的话：水平扩展&lt;div&gt;消息(V)&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;一旦消息（消息很多，但是消息种类一定多）而且需要同一类消息的有序性，&lt;span style=&quot;background-color: initial;&quot;&gt;消息（K，V）相同的key一定会去到一个分区里，broker会保证producer推送消息的顺序性&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;一个分区可能有不同的Key&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fillColor=#ffff88;strokeColor=none;horizontal=1;align=left;verticalAlign=top;" vertex="1" parent="1">
-          <mxGeometry x="30" y="1200" width="350" height="140" as="geometry" />
+        <mxCell id="aGrZsIu07CaAuVC8-_KM-39" value="如果没有顺序上的约束的话：水平扩展&lt;div&gt;消息(V)&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;一旦消息（消息很多，但是消息种类一定多）而且需要同一类消息的有序性，&lt;span style=&quot;background-color: initial;&quot;&gt;消息（K，V）相同的key一定会去到一个分区里，broker会保证producer推送消息的顺序性&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;一个分区可能有不同的Key,相同的Key在一个分区里没有排列在一起&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fillColor=#ffff88;strokeColor=none;horizontal=1;align=left;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="40" y="1800" width="350" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="aGrZsIu07CaAuVC8-_KM-40" value="P0" style="rounded=0;whiteSpace=wrap;html=1;align=center;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="237.5" y="1200" width="242.5" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="aGrZsIu07CaAuVC8-_KM-41" value="P1" style="rounded=0;whiteSpace=wrap;html=1;align=center;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="237.5" y="1400" width="242.5" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="aGrZsIu07CaAuVC8-_KM-71" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="aGrZsIu07CaAuVC8-_KM-42" target="aGrZsIu07CaAuVC8-_KM-40">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="aGrZsIu07CaAuVC8-_KM-42" value="producer" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="1240" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="aGrZsIu07CaAuVC8-_KM-43" value="producer" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="1450" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="aGrZsIu07CaAuVC8-_KM-72" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="aGrZsIu07CaAuVC8-_KM-44" target="aGrZsIu07CaAuVC8-_KM-41">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="aGrZsIu07CaAuVC8-_KM-44" value="producer" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="1340" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="aGrZsIu07CaAuVC8-_KM-45" value="3" style="rounded=0;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="232" y="1260" width="42" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="aGrZsIu07CaAuVC8-_KM-46" value="B" style="rounded=0;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fillColor=#cce5ff;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="232" y="1300" width="42" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="aGrZsIu07CaAuVC8-_KM-47" value="3" style="rounded=0;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="274" y="1260" width="42" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="aGrZsIu07CaAuVC8-_KM-48" value="A" style="rounded=0;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fillColor=#ffff88;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="274" y="1300" width="42" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="aGrZsIu07CaAuVC8-_KM-49" value="2" style="rounded=0;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="316" y="1260" width="42" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="aGrZsIu07CaAuVC8-_KM-50" value="B" style="rounded=0;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fillColor=#cce5ff;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="316" y="1300" width="42" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="aGrZsIu07CaAuVC8-_KM-51" value="2" style="rounded=0;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="359" y="1260" width="42" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="aGrZsIu07CaAuVC8-_KM-52" value="A" style="rounded=0;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fillColor=#ffff88;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="359" y="1300" width="42" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="aGrZsIu07CaAuVC8-_KM-53" value="1" style="rounded=0;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="401" y="1260" width="42" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="aGrZsIu07CaAuVC8-_KM-54" value="B" style="rounded=0;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fillColor=#cce5ff;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="401" y="1300" width="42" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="aGrZsIu07CaAuVC8-_KM-55" value="1" style="rounded=0;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="443" y="1260" width="42" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="aGrZsIu07CaAuVC8-_KM-56" value="A" style="rounded=0;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fillColor=#ffff88;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="443" y="1300" width="42" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="aGrZsIu07CaAuVC8-_KM-59" value="3" style="rounded=0;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="232" y="1460" width="42" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="aGrZsIu07CaAuVC8-_KM-60" value="B" style="rounded=0;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fillColor=#cce5ff;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="232" y="1500" width="42" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="aGrZsIu07CaAuVC8-_KM-61" value="3" style="rounded=0;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="274" y="1460" width="42" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="aGrZsIu07CaAuVC8-_KM-62" value="A" style="rounded=0;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fillColor=#ffff88;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="274" y="1500" width="42" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="aGrZsIu07CaAuVC8-_KM-63" value="2" style="rounded=0;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="316" y="1460" width="42" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="aGrZsIu07CaAuVC8-_KM-64" value="B" style="rounded=0;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fillColor=#cce5ff;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="316" y="1500" width="42" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="aGrZsIu07CaAuVC8-_KM-65" value="2" style="rounded=0;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="359" y="1460" width="42" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="aGrZsIu07CaAuVC8-_KM-66" value="A" style="rounded=0;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fillColor=#ffff88;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="359" y="1500" width="42" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="aGrZsIu07CaAuVC8-_KM-67" value="1" style="rounded=0;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="401" y="1460" width="42" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="aGrZsIu07CaAuVC8-_KM-68" value="B" style="rounded=0;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fillColor=#cce5ff;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="401" y="1500" width="42" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="aGrZsIu07CaAuVC8-_KM-69" value="1" style="rounded=0;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="443" y="1460" width="42" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="aGrZsIu07CaAuVC8-_KM-70" value="A" style="rounded=0;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fillColor=#ffff88;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="443" y="1500" width="42" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="aGrZsIu07CaAuVC8-_KM-73" value="&lt;div&gt;A消息的有序性怎么保证。&lt;/div&gt;&lt;div&gt;kafka可以保证分区内，同一个Key消息的有序性，但是producer要保证发送消息是有序的，一个producer进行发送。&lt;/div&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fillColor=#ffff88;strokeColor=none;horizontal=1;align=left;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="40" y="1590" width="350" height="140" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

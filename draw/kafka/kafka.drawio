@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-05-23T15:18:46.154Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="Iv5MYgKjaC7sraHQVThT" version="24.4.5" type="github">
+<mxfile host="app.diagrams.net" modified="2024-05-23T15:18:56.224Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="DSRO5jqFevPPZahyDagl" version="24.4.5" type="github">
   <diagram name="第 1 页" id="M_x8-9DKoYfC3ThnBNaP">
     <mxGraphModel dx="794" dy="420" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -334,7 +334,7 @@
           <mxGeometry x="460" y="1220" width="150" height="40" as="geometry" />
         </mxCell>
         <mxCell id="aGrZsIu07CaAuVC8-_KM-93" value="kafka的comsuer以什么粒度更新&amp;amp;持久化offset??" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fillColor=#ffff88;strokeColor=none;horizontal=1;align=center;verticalAlign=top;size=18;fontColor=#FF0000;fontStyle=1" vertex="1" parent="1">
-          <mxGeometry x="227" y="1240" width="120" height="60" as="geometry" />
+          <mxGeometry x="230" y="1220" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

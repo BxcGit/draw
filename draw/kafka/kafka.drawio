@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-05-24T02:11:17.139Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="f2gNh42WS1yLx2gbvOz1" version="24.4.5" type="github">
+<mxfile host="app.diagrams.net" modified="2024-05-24T04:21:23.561Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="3XFd2S4hMwqk-053Mz_Q" version="24.4.5" type="github">
   <diagram name="第 1 页" id="M_x8-9DKoYfC3ThnBNaP">
     <mxGraphModel dx="1246" dy="420" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -444,7 +444,7 @@
         <mxCell id="GBBMjFQ-gwH4zNeSITjH-341" value="批次的头或者尾绝对更新&lt;div style=&quot;font-size: 14px;&quot;&gt;依赖了事务的反馈&lt;/div&gt;&lt;div style=&quot;font-size: 14px;&quot;&gt;&lt;br style=&quot;font-size: 14px;&quot;&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 14px;&quot;&gt;不会有重复消费，丢失数据的问题&lt;/div&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fillColor=#ffff88;strokeColor=none;horizontal=1;align=left;verticalAlign=top;size=18;fontSize=14;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="1310" y="1730" width="247" height="92" as="geometry" />
         </mxCell>
-        <mxCell id="GBBMjFQ-gwH4zNeSITjH-342" value="1. 单线程，按顺序单条处理，offset就是递增的，无论对db,offset频率，成本有点高，CPU、网卡、资源浪费&lt;div&gt;2. 流式的多线程，能多线程的多线程，但是整个批次的事务环节交给一个线程，做到这个批次，要么成功，要么失败，减少对DB的压力，和offset频率压力，更多的去利用CPU网卡的性能&lt;/div&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fillColor=#ffff88;strokeColor=none;horizontal=1;align=left;verticalAlign=top;size=18;fontSize=14;" vertex="1" parent="1">
+        <mxCell id="GBBMjFQ-gwH4zNeSITjH-342" value="1. 单线程，按顺序单条处理，offset就是递增的，无论对db,offset频率，成本有点高，CPU、网卡、资源浪费&lt;div&gt;2. 流式的多线程，能多线程的多线程，但是整个批次的事务环节交给一个线程，做到这个批次，要么成功，要么失败，减少对DB的压力，和offset频率压力，更多的去利用CPU网卡，粒度就比较粗&lt;/div&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fillColor=#ffff88;strokeColor=none;horizontal=1;align=left;verticalAlign=top;size=18;fontSize=14;" vertex="1" parent="1">
           <mxGeometry x="1315" y="1834" width="425" height="96" as="geometry" />
         </mxCell>
       </root>

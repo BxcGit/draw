@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-05-28T12:07:59.453Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="jfNNCxxbegc8ul_qPMje" version="24.4.9" type="github">
+<mxfile host="app.diagrams.net" modified="2024-05-28T15:48:17.867Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="FrVpqrdDwzaLIghk5mPU" version="24.4.9" type="github">
   <diagram name="第 1 页" id="PkiXDes5N5bRzUGDbgQO">
-    <mxGraphModel dx="1176" dy="596" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="794" dy="386" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -294,6 +294,9 @@
         </mxCell>
         <mxCell id="034WyvBDw2LTuWk4lug2-42" value="0，另外一个trade off 不要强调磁盘的可靠性，转向异地多级的同步&lt;div&gt;1. 如果拿磁盘做持久化，在做trade off&lt;div&gt;有限pagecache或者绝对磁盘&lt;/div&gt;&lt;div&gt;2，在多机集群分布式的时候 trade off 强一致性，最终一致性(过半，ISR)&lt;/div&gt;&lt;div&gt;*: redis 宁可用HA,不用刻意追求AOF的准确性&lt;/div&gt;&lt;div&gt;&amp;nbsp;像kafka，我们追求ack -1不要太追求磁盘的可靠性&lt;/div&gt;&lt;/div&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fillColor=#fff2cc;strokeColor=#d6b656;horizontal=1;align=left;verticalAlign=top;" vertex="1" parent="1">
           <mxGeometry x="20" y="2180" width="390" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="034WyvBDw2LTuWk4lug2-43" value="lsof -Pnp 3462&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;index文件都是 mem&lt;/div&gt;&lt;div&gt;log文件都是&amp;nbsp; u&lt;/div&gt;&lt;div&gt;问题：.log为啥不用mmap?&lt;/div&gt;&lt;div&gt;mmap或者普通io log使用普通io的形式目的是通用性&lt;/div&gt;&lt;div&gt;数据存入磁盘的可靠性级别&lt;/div&gt;&lt;div&gt;app级别，&lt;/div&gt;&lt;div&gt;调用了io的write,但是这个时候只到达了内核，性能快，但是会丢数据，只有NIO的filechannel，你调用了write + force，才能真正的写道磁盘。&lt;/div&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fillColor=#fff2cc;strokeColor=#d6b656;horizontal=1;align=left;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="30" y="2380" width="340" height="170" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

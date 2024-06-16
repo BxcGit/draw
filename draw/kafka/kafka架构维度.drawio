@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-06-03T10:39:03.599Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="fg2We6QyQkfbZPK3aC0A" version="24.4.13" type="github">
+<mxfile host="app.diagrams.net" modified="2024-06-16T12:49:36.735Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="rE7lZkCNs2n_eB8pUlhB" version="24.4.13" type="github">
   <diagram name="第 1 页" id="PkiXDes5N5bRzUGDbgQO">
-    <mxGraphModel dx="1221" dy="626" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="794" dy="420" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -373,26 +373,35 @@
         <mxCell id="IShY9MJZ5aXx8t9KCvCx-11" value="Producer&lt;div&gt;Batch&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="469" y="3270" width="58.5" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="eLV7LrER7qPHKsvqjfjF-2" value="Producer&amp;nbsp;&lt;span style=&quot;background-color: initial;&quot;&gt;Batch&amp;nbsp; &amp;nbsp;BATCH_SIZE_CONFIG&lt;/span&gt;" style="whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
+        <mxCell id="eLV7LrER7qPHKsvqjfjF-2" value="Producer&amp;nbsp;&lt;span style=&quot;background-color: initial;&quot;&gt;Batch&amp;nbsp; &amp;nbsp;BATCH_SIZE_CONFIG&lt;/span&gt;" style="whiteSpace=wrap;html=1;verticalAlign=top;" parent="1" vertex="1">
           <mxGeometry x="213.75" y="3520" width="387" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="eLV7LrER7qPHKsvqjfjF-1" value="head key value" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="eLV7LrER7qPHKsvqjfjF-1" value="head key value" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="212.25" y="3570" width="58.5" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="eLV7LrER7qPHKsvqjfjF-3" value="head key value" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="eLV7LrER7qPHKsvqjfjF-3" value="head key value" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="273.75" y="3570" width="58.5" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="eLV7LrER7qPHKsvqjfjF-4" value="head key value" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="eLV7LrER7qPHKsvqjfjF-4" value="head key value" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="335.25" y="3570" width="58.5" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="eLV7LrER7qPHKsvqjfjF-5" value="head key value" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="eLV7LrER7qPHKsvqjfjF-5" value="head key value" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="398" y="3570" width="58.5" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="eLV7LrER7qPHKsvqjfjF-6" value="head key value" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="eLV7LrER7qPHKsvqjfjF-6" value="head key value" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="459.5" y="3570" width="58.5" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="eLV7LrER7qPHKsvqjfjF-7" value="head key value" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="eLV7LrER7qPHKsvqjfjF-7" value="head key value" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="519.75" y="3570" width="58.5" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Ly3f6-7iyZXwPjCFiIj4-1" value="kafka Selectable" style="rounded=0;whiteSpace=wrap;html=1;align=center;verticalAlign=top;horizontal=1;" vertex="1" parent="1">
+          <mxGeometry x="197.5" y="3770" width="402.5" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="Ly3f6-7iyZXwPjCFiIj4-2" value="nioSelector" style="rounded=0;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="210" y="3810" width="75" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Ly3f6-7iyZXwPjCFiIj4-3" value="channels" style="rounded=0;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="323" y="3810" width="75" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

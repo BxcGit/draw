@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-06-24T09:19:23.613Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="hUIowE1W_yHWdZtVrUHj" version="24.5.5" type="github">
+<mxfile host="app.diagrams.net" modified="2024-06-24T09:38:11.038Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="i2mg7L0mT9i4z2F0Uf50" version="24.5.5" type="github">
   <diagram name="第 1 页" id="PkiXDes5N5bRzUGDbgQO">
     <mxGraphModel dx="794" dy="420" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -514,6 +514,36 @@
         </mxCell>
         <mxCell id="4vZclOJh9Q1g4vMz1hYF-1" value="Producer&lt;div&gt;Record&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
           <mxGeometry x="13" y="4890" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4vZclOJh9Q1g4vMz1hYF-2" value="Record Accumulator&amp;nbsp;&amp;nbsp;&lt;span style=&quot;font-style: italic; font-size: 10.5pt; white-space: pre;&quot;&gt;BUFFER_MEMORY_CONFIG&lt;/span&gt;" style="whiteSpace=wrap;html=1;verticalAlign=top;fontFamily=Helvetica;fontColor=default;labelBackgroundColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="160" y="4800" width="400" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="4vZclOJh9Q1g4vMz1hYF-3" value="topic" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="196" y="4840" width="60" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="4vZclOJh9Q1g4vMz1hYF-4" value="topic" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="196" y="4940" width="60" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="4vZclOJh9Q1g4vMz1hYF-5" value="partition-X" style="rounded=1;whiteSpace=wrap;html=1;align=right;" vertex="1" parent="1">
+          <mxGeometry x="283.25" y="4840" width="255.75" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="4vZclOJh9Q1g4vMz1hYF-6" value="partition-Y" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="276" y="4890" width="223" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="4vZclOJh9Q1g4vMz1hYF-7" value="partition-X" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="276" y="4940" width="223" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="4vZclOJh9Q1g4vMz1hYF-8" value="partition-Y" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="276" y="4990" width="223" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="4vZclOJh9Q1g4vMz1hYF-9" value="Producer&lt;div&gt;Batch&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="283.25" y="4830" width="58.5" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="4vZclOJh9Q1g4vMz1hYF-10" value="Producer&lt;div&gt;Batch&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="347.75" y="4830" width="58.5" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="4vZclOJh9Q1g4vMz1hYF-11" value="Producer&lt;div&gt;Batch&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="408" y="4830" width="58.5" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

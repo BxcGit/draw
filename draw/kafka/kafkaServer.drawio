@@ -1,9 +1,18 @@
-<mxfile host="app.diagrams.net" modified="2024-06-26T11:39:02.604Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="farHjEtQ2mRRoyFy2MGD" version="24.6.3" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2024-06-26T11:53:15.031Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="ifZPRTphcOTVgvNOqQ4t" version="24.6.3" type="github" pages="2">
   <diagram name="第 1 页" id="A7dTB1FYtnh71Bejf-Xg">
-    <mxGraphModel>
+    <mxGraphModel dx="794" dy="420" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="oCcr87W6s0GWtc9AZ654-2" value="kafkaServer" style="rounded=0;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="90" y="110" width="150" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="oCcr87W6s0GWtc9AZ654-3" value="外部如何通信&lt;div&gt;内部如何写磁盘&lt;/div&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fillColor=#ffff88;strokeColor=none;horizontal=1;align=left;verticalAlign=top;size=18;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="530" y="80" width="150" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="oCcr87W6s0GWtc9AZ654-4" value="KafkaRequestHandler" style="rounded=0;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="320" y="280" width="130" height="50" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>

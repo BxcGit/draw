@@ -1,10 +1,13 @@
-<mxfile host="app.diagrams.net" modified="2024-06-30T10:56:03.100Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="oVoP-AtykC56QS-Giyvv" version="24.6.4" type="github">
+<mxfile host="app.diagrams.net" modified="2024-06-30T11:18:09.293Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="46rLzsGCwsBZCIhsli2u" version="24.6.4" type="github">
   <diagram name="第 1 页" id="lCkcz3Zl63JNi4f7n_hy">
     <mxGraphModel dx="794" dy="420" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="bQfD7yy9uqaKVajtqMiU-1" value="TCP/IP 网络分层" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fillColor=#ffff88;strokeColor=none;horizontal=1;align=left;verticalAlign=top;size=18;fontSize=14;fontStyle=1" vertex="1" parent="1">
+        <mxCell id="bQfD7yy9uqaKVajtqMiU-43" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f0a30a;strokeColor=#BD7000;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="155.4" y="790" width="14.6" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="bQfD7yy9uqaKVajtqMiU-1" value="TCP/IP 网络分层" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fillColor=#ffff88;strokeColor=none;horizontal=1;align=left;verticalAlign=top;size=18;fontSize=16;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="30" y="30" width="130" height="30" as="geometry" />
         </mxCell>
         <mxCell id="bQfD7yy9uqaKVajtqMiU-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="bQfD7yy9uqaKVajtqMiU-3">
@@ -96,6 +99,30 @@
         </mxCell>
         <mxCell id="bQfD7yy9uqaKVajtqMiU-31" value="网卡网线" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="275" y="428" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="bQfD7yy9uqaKVajtqMiU-33" value="内核和网络设备驱动是通过中断的方式来处理的。当驱动上有数据到达的时候，会给CPU的相关引脚上触发一个电压变化，处理CPU来处理数据。对于网络模块来说，由于处理过程比较复杂和耗时，将会导致中断处理函数过度占用CPU，导致CPU无法响应其他设备。因此在linux中断处理函数中是分上部分和下部分的。上部分响应硬中断，简单处理后发出软中断，下半部分是处理软中断，由ksoftirqd内核线程全权处理。" style="text;html=1;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="40" y="480" width="380" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="bQfD7yy9uqaKVajtqMiU-35" value="内核收包示意图" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fillColor=#ffff88;strokeColor=none;horizontal=1;align=left;verticalAlign=top;size=18;" vertex="1" parent="1">
+          <mxGeometry x="40" y="640" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="bQfD7yy9uqaKVajtqMiU-36" value="CPU" style="pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#4495D1;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;shape=mxgraph.veeam.cpu;" vertex="1" parent="1">
+          <mxGeometry x="140" y="720" width="44.8" height="44.8" as="geometry" />
+        </mxCell>
+        <mxCell id="bQfD7yy9uqaKVajtqMiU-37" value="PCle总线" style="shape=doubleArrow;whiteSpace=wrap;html=1;arrowWidth=0.5555562337239583;arrowSize=0.10917862601902174;fillColor=#1ba1e2;strokeColor=#006EAF;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="80" y="895" width="385" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="bQfD7yy9uqaKVajtqMiU-38" value="Bridge" style="rounded=0;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="125" y="814" width="75" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="bQfD7yy9uqaKVajtqMiU-44" value="" style="rounded=0;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="310" y="720" width="140" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="bQfD7yy9uqaKVajtqMiU-45" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1" target="bQfD7yy9uqaKVajtqMiU-44">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="310" y="810" as="sourcePoint" />
+            <mxPoint x="360" y="760" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>

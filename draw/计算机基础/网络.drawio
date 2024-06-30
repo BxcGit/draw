@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-06-30T11:33:39.148Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="OzYKVEq_bQklUPZ2_O5m" version="24.6.4" type="github">
+<mxfile host="app.diagrams.net" modified="2024-06-30T15:03:40.820Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="AAov8kYMAPSYE7N54R37" version="24.6.4" type="github">
   <diagram name="第 1 页" id="lCkcz3Zl63JNi4f7n_hy">
     <mxGraphModel dx="794" dy="420" grid="1" gridSize="6" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -193,6 +193,9 @@
         </mxCell>
         <mxCell id="bQfD7yy9uqaKVajtqMiU-69" value="7. 协议栈开始处理网络帧，&lt;div&gt;处理完后放到socket的接收队列中&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#393C56;" vertex="1" parent="1">
           <mxGeometry x="460" y="756" width="204" height="48" as="geometry" />
+        </mxCell>
+        <mxCell id="bQfD7yy9uqaKVajtqMiU-70" value="ring buffer是一种结构，环形缓冲区&lt;div&gt;至于内存区域，又分为RX 和 TX，&lt;/div&gt;&lt;div&gt;RX指的是接受队列，TX指的是发送队列&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#393C56;" vertex="1" parent="1">
+          <mxGeometry x="30" y="1026" width="234" height="78" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

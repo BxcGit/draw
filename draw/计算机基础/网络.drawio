@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-06-30T15:03:40.820Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="AAov8kYMAPSYE7N54R37" version="24.6.4" type="github">
+<mxfile host="app.diagrams.net" modified="2024-07-02T13:32:50.730Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="HpO5FUq52xb8-fR_41Le" version="24.6.4" type="github">
   <diagram name="第 1 页" id="lCkcz3Zl63JNi4f7n_hy">
     <mxGraphModel dx="794" dy="420" grid="1" gridSize="6" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -196,6 +196,12 @@
         </mxCell>
         <mxCell id="bQfD7yy9uqaKVajtqMiU-70" value="ring buffer是一种结构，环形缓冲区&lt;div&gt;至于内存区域，又分为RX 和 TX，&lt;/div&gt;&lt;div&gt;RX指的是接受队列，TX指的是发送队列&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#393C56;" vertex="1" parent="1">
           <mxGeometry x="30" y="1026" width="234" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="bQfD7yy9uqaKVajtqMiU-74" value="同步阻塞IO流程图" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fillColor=#ffff88;strokeColor=none;horizontal=1;align=center;verticalAlign=top;size=18;fontSize=14;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="28" y="1146" width="122" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="bQfD7yy9uqaKVajtqMiU-75" value="用户进程" style="rounded=0;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="58" y="1242" width="75" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

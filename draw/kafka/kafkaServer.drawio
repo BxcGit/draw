@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-07-03T15:26:05.131Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="SFZoF-D0uDo4MVu7jdsM" version="24.6.4" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2024-07-04T05:28:00.447Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="wqFkKn6q_6Tq4CCjHMAE" version="24.6.4" type="github" pages="2">
   <diagram name="第 1 页" id="A7dTB1FYtnh71Bejf-Xg">
     <mxGraphModel dx="794" dy="420" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -192,10 +192,13 @@
         <mxCell id="YqRdsaPNJDaJyQTsDoqS-37" value="读取响应内容" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="YqRdsaPNJDaJyQTsDoqS-16">
           <mxGeometry x="40" y="280" width="75" height="40" as="geometry" />
         </mxCell>
+        <mxCell id="YqRdsaPNJDaJyQTsDoqS-52" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="YqRdsaPNJDaJyQTsDoqS-16" source="YqRdsaPNJDaJyQTsDoqS-38" target="YqRdsaPNJDaJyQTsDoqS-40">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="YqRdsaPNJDaJyQTsDoqS-38" value="注册写事件" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="YqRdsaPNJDaJyQTsDoqS-16">
           <mxGeometry x="40" y="350" width="75" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="YqRdsaPNJDaJyQTsDoqS-40" value="注册写事件" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="YqRdsaPNJDaJyQTsDoqS-16">
+        <mxCell id="YqRdsaPNJDaJyQTsDoqS-40" value="发送数据" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="YqRdsaPNJDaJyQTsDoqS-16">
           <mxGeometry x="40" y="410" width="75" height="40" as="geometry" />
         </mxCell>
         <mxCell id="YqRdsaPNJDaJyQTsDoqS-17" value="RequestHandler" style="swimlane;startSize=20;whiteSpace=wrap;html=1;" vertex="1" parent="YqRdsaPNJDaJyQTsDoqS-9">

@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-07-07T10:38:15.682Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="qrwEe-hs8qca_LGQmIYL" version="24.6.4" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2024-07-07T11:05:09.163Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="iLbeWqnrqpbBwtVDgv_f" version="24.6.4" type="github" pages="2">
   <diagram name="第 1 页" id="A7dTB1FYtnh71Bejf-Xg">
-    <mxGraphModel dx="794" dy="420" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="238" dy="413" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -330,6 +330,15 @@
         </mxCell>
         <mxCell id="WGZwHmLZT-QYoWim5-VU-5" value="mmap = raf.getChannel.map(10MB)" style="rounded=0;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
           <mxGeometry x="90.5" y="2817.5" width="219.5" height="52.5" as="geometry" />
+        </mxCell>
+        <mxCell id="WGZwHmLZT-QYoWim5-VU-6" value="channel.write(buffer)&lt;div&gt;只写到了内核pagecache&lt;/div&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fillColor=#ffff88;strokeColor=none;horizontal=1;align=left;verticalAlign=top;size=18;" vertex="1" parent="1">
+          <mxGeometry x="335" y="2682.5" width="150" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="WGZwHmLZT-QYoWim5-VU-7" value="mmap.putInt&lt;div&gt;只写到了内核的pagecache&lt;/div&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fillColor=#ffff88;strokeColor=none;horizontal=1;align=left;verticalAlign=top;size=18;" vertex="1" parent="1">
+          <mxGeometry x="336" y="2790" width="150" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="WGZwHmLZT-QYoWim5-VU-8" value="什么时候会刷新到磁盘&lt;div&gt;flush.messages: 配置写多少条数据后进行flush (force)&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;kafka_doc: In general we recommend you not set this and use replication for durability and allow the operating system&#39;s background flush capabilities as it is more efficient.&lt;/div&gt;&lt;div&gt;通常情况下，我们建议你不要设置它，而是使用复制以提高持久性，并允许操作系统的后台刷新功能，因为它更高效。&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="540" y="2678" width="230" height="202" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

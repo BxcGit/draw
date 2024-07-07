@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-07-05T02:17:11.557Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="wOXIfH20nlP7CWJf3R5d" version="24.6.4" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2024-07-07T07:50:03.563Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="1Ur-b07HEy-P8i52EkIP" version="24.6.4" type="github" pages="2">
   <diagram name="第 1 页" id="A7dTB1FYtnh71Bejf-Xg">
-    <mxGraphModel dx="794" dy="420" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="934" dy="494" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -11,7 +11,7 @@
           <mxGeometry x="90" y="110" width="150" height="190" as="geometry" />
         </mxCell>
         <mxCell id="oCcr87W6s0GWtc9AZ654-3" value="外部如何通信&lt;div&gt;内部如何写磁盘&lt;/div&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fillColor=#ffff88;strokeColor=none;horizontal=1;align=left;verticalAlign=top;size=18;fontStyle=1" parent="1" vertex="1">
-          <mxGeometry x="530" y="80" width="150" height="90" as="geometry" />
+          <mxGeometry x="315" y="110" width="150" height="90" as="geometry" />
         </mxCell>
         <mxCell id="oCcr87W6s0GWtc9AZ654-4" value="KafkaRequestHandler" style="rounded=0;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;" parent="1" vertex="1">
           <mxGeometry x="510" y="470" width="230" height="80" as="geometry" />
@@ -262,6 +262,59 @@
         </mxCell>
         <mxCell id="YqRdsaPNJDaJyQTsDoqS-51" value="ArrayBlockingQueue" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="940" y="1000" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="YqRdsaPNJDaJyQTsDoqS-53" value="本地存储文件" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fillColor=#ffff88;strokeColor=none;horizontal=1;align=left;verticalAlign=top;size=18;" vertex="1" parent="1">
+          <mxGeometry x="80" y="1850" width="80" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="YqRdsaPNJDaJyQTsDoqS-54" value="brocker" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="150" y="2110" width="120" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="YqRdsaPNJDaJyQTsDoqS-55" value="C" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="185" y="1930" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="YqRdsaPNJDaJyQTsDoqS-56" value="partition&lt;div&gt;Leader&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="140" y="2080" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="YqRdsaPNJDaJyQTsDoqS-57" value="brocker" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="335" y="2110" width="120" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="YqRdsaPNJDaJyQTsDoqS-58" value="partition&lt;div&gt;Leader&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="325" y="2080" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="YqRdsaPNJDaJyQTsDoqS-59" value="replicaManger" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="120" y="2130" width="380" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="YqRdsaPNJDaJyQTsDoqS-60" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;endWidth=56.470588235294116;endSize=11.670588235294117;width=51.76470588235294;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" target="YqRdsaPNJDaJyQTsDoqS-54">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="209.41" y="2190" as="sourcePoint" />
+            <mxPoint x="209" y="2240" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YqRdsaPNJDaJyQTsDoqS-63" value="local&lt;div&gt;log&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="YqRdsaPNJDaJyQTsDoqS-60">
+          <mxGeometry x="0.0166" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YqRdsaPNJDaJyQTsDoqS-64" value="segment" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fillColor=#fff2cc;strokeColor=#d6b656;horizontal=1;align=center;verticalAlign=middle;size=15;" vertex="1" parent="1">
+          <mxGeometry x="80" y="2288" width="80" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="YqRdsaPNJDaJyQTsDoqS-65" value="segment" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fillColor=#fff2cc;strokeColor=#d6b656;horizontal=1;align=center;verticalAlign=middle;size=15;" vertex="1" parent="1">
+          <mxGeometry x="170" y="2288" width="80" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="YqRdsaPNJDaJyQTsDoqS-66" value="segment" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fillColor=#fff2cc;strokeColor=#d6b656;horizontal=1;align=center;verticalAlign=middle;size=15;" vertex="1" parent="1">
+          <mxGeometry x="269.5" y="2288" width="80" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="YqRdsaPNJDaJyQTsDoqS-67" value="shouldRoll&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;segment文件形成的要素&lt;/div&gt;&lt;div&gt;删除7天的segment文件 ： 可配置&lt;/div&gt;&lt;div&gt;1. size &amp;gt; rollParams.maxSegementBytes - rollParams.message.Size&lt;/div&gt;&lt;div&gt;当前段使用量是不是大于了允许的使用量，如果大于，那就需要创建新的段文件&lt;/div&gt;&lt;div&gt;2. （size &amp;gt; 0 &amp;amp;&amp;amp; reachedRollMs）&lt;/div&gt;&lt;div&gt;当前段文件有数据，空间够，但是寿命已尽&lt;/div&gt;&lt;div&gt;3. offsetIndex.isFull 10MB&lt;/div&gt;&lt;div&gt;4. timeIndex.isFull 10MB&lt;/div&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fillColor=#ffff88;strokeColor=none;horizontal=1;align=left;verticalAlign=top;size=18;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="76" y="2430" width="450" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="YqRdsaPNJDaJyQTsDoqS-68" value="log" style="rounded=0;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="140" y="2350" width="60" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="YqRdsaPNJDaJyQTsDoqS-69" value="offsetindex" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="220" y="2350" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="YqRdsaPNJDaJyQTsDoqS-70" value="timeindex" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="300" y="2350" width="60" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

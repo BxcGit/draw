@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-07-10T15:03:05.942Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="VjCsetKdFFzwj1oI2Z5-" version="24.6.4" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2024-07-10T15:24:29.735Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="Mj7rajiz78MhyTQJG8nn" version="24.6.4" type="github" pages="2">
   <diagram name="第 1 页" id="A7dTB1FYtnh71Bejf-Xg">
     <mxGraphModel dx="794" dy="420" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -411,11 +411,40 @@
         <mxCell id="_loZuRm22QkWC_Hf5UwX-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="_loZuRm22QkWC_Hf5UwX-13" target="_loZuRm22QkWC_Hf5UwX-16">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="_loZuRm22QkWC_Hf5UwX-19" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="_loZuRm22QkWC_Hf5UwX-13" target="_loZuRm22QkWC_Hf5UwX-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="_loZuRm22QkWC_Hf5UwX-13" value="appendRecords" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="253" y="3465.5" width="97" height="33" as="geometry" />
         </mxCell>
         <mxCell id="_loZuRm22QkWC_Hf5UwX-16" value="appendToLocalLog" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="406" y="3465.5" width="114" height="33" as="geometry" />
+        </mxCell>
+        <mxCell id="_loZuRm22QkWC_Hf5UwX-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="_loZuRm22QkWC_Hf5UwX-18" target="_loZuRm22QkWC_Hf5UwX-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_loZuRm22QkWC_Hf5UwX-25" value="ack -1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="_loZuRm22QkWC_Hf5UwX-21">
+          <mxGeometry x="-0.115" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_loZuRm22QkWC_Hf5UwX-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="_loZuRm22QkWC_Hf5UwX-18" target="_loZuRm22QkWC_Hf5UwX-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_loZuRm22QkWC_Hf5UwX-18" value="ACK" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="406" y="3581" width="74" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_loZuRm22QkWC_Hf5UwX-20" value="appendToLocalLog" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="536" y="3580" width="114" height="33" as="geometry" />
+        </mxCell>
+        <mxCell id="_loZuRm22QkWC_Hf5UwX-22" value="callback" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#fad7ac;strokeColor=#b46504;" vertex="1" parent="1">
+          <mxGeometry x="418" y="3653" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="_loZuRm22QkWC_Hf5UwX-27" value="&lt;span style=&quot;text-align: center;&quot;&gt;result.info.lastOffset + 1&lt;/span&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fillColor=#fff2cc;strokeColor=#d6b656;horizontal=1;align=left;verticalAlign=top;size=14;" vertex="1" parent="1">
+          <mxGeometry x="406" y="3520" width="164" height="34.5" as="geometry" />
+        </mxCell>
+        <mxCell id="_loZuRm22QkWC_Hf5UwX-28" value="&lt;div style=&quot;text-align: center;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;producerStateManager&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: center;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;.updateMapEndOffset(appendInfo.lastOffset + 1)&lt;/span&gt;&lt;/div&gt;" style="shape=note;html=1;backgroundOutline=1;darkOpacity=0.05;fillColor=#fff2cc;strokeColor=#d6b656;horizontal=1;align=left;verticalAlign=top;size=14;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="540" y="3464" width="270" height="46" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-07-15T08:33:12.879Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="o7bzmSi1mdW7gBszAe-i" version="24.6.5" type="github">
+<mxfile host="app.diagrams.net" modified="2024-07-15T08:49:03.944Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="kJvP4ZtYX7zCCbJEW7d5" version="24.6.5" type="github">
   <diagram name="第 1 页" id="KqfpGg_a_y9sjLg6dXOu">
     <mxGraphModel dx="794" dy="-749" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -107,13 +107,56 @@
           <mxGeometry x="376" y="2250" width="75" height="40" as="geometry" />
         </mxCell>
         <mxCell id="MMY0n6aN0ZH-GlnB2l80-1" value="核心业务系统对接反洗钱筛查" style="swimlane;" vertex="1" parent="1">
-          <mxGeometry x="170" y="2370" width="520" height="350" as="geometry" />
+          <mxGeometry x="170" y="2370" width="520" height="380" as="geometry" />
         </mxCell>
         <mxCell id="MMY0n6aN0ZH-GlnB2l80-3" value="核心业务系统" style="swimlane;startSize=20;whiteSpace=wrap;html=1;" vertex="1" parent="MMY0n6aN0ZH-GlnB2l80-1">
-          <mxGeometry y="23" width="250" height="327" as="geometry" />
+          <mxGeometry y="23" width="250" height="357" as="geometry" />
+        </mxCell>
+        <mxCell id="MMY0n6aN0ZH-GlnB2l80-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="MMY0n6aN0ZH-GlnB2l80-3" source="MMY0n6aN0ZH-GlnB2l80-6" target="MMY0n6aN0ZH-GlnB2l80-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MMY0n6aN0ZH-GlnB2l80-6" value="方案审批流程&lt;div&gt;发起&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;arcSize=50;" vertex="1" parent="MMY0n6aN0ZH-GlnB2l80-3">
+          <mxGeometry x="70" y="47" width="90" height="43" as="geometry" />
+        </mxCell>
+        <mxCell id="MMY0n6aN0ZH-GlnB2l80-10" value="反洗钱信息落表" style="rounded=0;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="MMY0n6aN0ZH-GlnB2l80-3">
+          <mxGeometry x="70" y="143.5" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="MMY0n6aN0ZH-GlnB2l80-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="MMY0n6aN0ZH-GlnB2l80-3" source="MMY0n6aN0ZH-GlnB2l80-14" target="MMY0n6aN0ZH-GlnB2l80-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MMY0n6aN0ZH-GlnB2l80-14" value="/htAntiMoneyResult.json&lt;div&gt;接收筛查结果&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;" vertex="1" parent="MMY0n6aN0ZH-GlnB2l80-3">
+          <mxGeometry x="40" y="267" width="150" height="40" as="geometry" />
         </mxCell>
         <mxCell id="MMY0n6aN0ZH-GlnB2l80-4" value="反洗钱" style="swimlane;startSize=20;whiteSpace=wrap;html=1;" vertex="1" parent="MMY0n6aN0ZH-GlnB2l80-1">
-          <mxGeometry x="250" y="23" width="270" height="327" as="geometry" />
+          <mxGeometry x="250" y="23" width="270" height="357" as="geometry" />
+        </mxCell>
+        <mxCell id="MMY0n6aN0ZH-GlnB2l80-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="MMY0n6aN0ZH-GlnB2l80-4" source="MMY0n6aN0ZH-GlnB2l80-11" target="MMY0n6aN0ZH-GlnB2l80-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MMY0n6aN0ZH-GlnB2l80-11" value="5.2接口接收数据" style="rounded=0;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;" vertex="1" parent="MMY0n6aN0ZH-GlnB2l80-4">
+          <mxGeometry x="100" y="48.5" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="MMY0n6aN0ZH-GlnB2l80-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="MMY0n6aN0ZH-GlnB2l80-4" source="MMY0n6aN0ZH-GlnB2l80-13" target="MMY0n6aN0ZH-GlnB2l80-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MMY0n6aN0ZH-GlnB2l80-13" value="反洗钱筛查审批" style="rounded=0;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;" vertex="1" parent="MMY0n6aN0ZH-GlnB2l80-4">
+          <mxGeometry x="100" y="144" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="MMY0n6aN0ZH-GlnB2l80-15" value="反洗钱筛查审批完成" style="rounded=0;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;" vertex="1" parent="MMY0n6aN0ZH-GlnB2l80-4">
+          <mxGeometry x="100" y="267" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="MMY0n6aN0ZH-GlnB2l80-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="MMY0n6aN0ZH-GlnB2l80-1" source="MMY0n6aN0ZH-GlnB2l80-6">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="347.5" y="91.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MMY0n6aN0ZH-GlnB2l80-9" value="推送需要进行&lt;div&gt;筛查的客户&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="MMY0n6aN0ZH-GlnB2l80-8">
+          <mxGeometry x="-0.2676" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MMY0n6aN0ZH-GlnB2l80-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="MMY0n6aN0ZH-GlnB2l80-1" source="MMY0n6aN0ZH-GlnB2l80-15" target="MMY0n6aN0ZH-GlnB2l80-14">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

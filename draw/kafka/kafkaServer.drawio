@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-07-16T13:58:23.570Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="P_XfM1mFMnXidwwhYH-d" version="24.6.5" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2024-07-16T14:03:17.486Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="M4DfIVFuVP6uNEEWhsy3" version="24.6.5" type="github" pages="2">
   <diagram name="第 1 页" id="A7dTB1FYtnh71Bejf-Xg">
     <mxGraphModel dx="794" dy="420" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -503,7 +503,7 @@
           <mxGeometry x="40" y="3839.25" width="120" height="340.75" as="geometry" />
         </mxCell>
         <mxCell id="cCUcoUPP7uHQ34zrdlK5-21" value="responseData.foreach()" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="728.75" y="4790" width="163" height="40" as="geometry" />
+          <mxGeometry x="594.5" y="4790" width="163" height="40" as="geometry" />
         </mxCell>
         <mxCell id="cCUcoUPP7uHQ34zrdlK5-23" value="Partition:&lt;div&gt;leader处理拉取请求&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="40" y="4209.25" width="120" height="340.75" as="geometry" />
@@ -543,6 +543,9 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="cCUcoUPP7uHQ34zrdlK5-46" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="cCUcoUPP7uHQ34zrdlK5-36" target="cCUcoUPP7uHQ34zrdlK5-45">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="cCUcoUPP7uHQ34zrdlK5-36" value="updateFolloweFetchState" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f0a30a;strokeColor=#BD7000;fontColor=#000000;" vertex="1" parent="1">
           <mxGeometry x="734.75" y="4570" width="151" height="30" as="geometry" />
         </mxCell>
@@ -556,7 +559,10 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="cCUcoUPP7uHQ34zrdlK5-39" value="tryComplateDelayedRequests()" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1197" y="4600" width="208.75" height="50" as="geometry" />
+          <mxGeometry x="1197" y="4560" width="208.75" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="cCUcoUPP7uHQ34zrdlK5-45" value="maybeExpandIsr" style="rounded=0;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="881" y="4660" width="109" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

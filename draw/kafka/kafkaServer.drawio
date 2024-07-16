@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-07-16T14:28:12.088Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="yskDyJq_HsrL2_ctI-dU" version="24.6.5" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2024-07-16T14:31:10.762Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="JMLC5VpefBclYYxqE9Ah" version="24.6.5" type="github" pages="2">
   <diagram name="第 1 页" id="A7dTB1FYtnh71Bejf-Xg">
     <mxGraphModel dx="794" dy="420" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -573,6 +573,12 @@
         </mxCell>
         <mxCell id="cCUcoUPP7uHQ34zrdlK5-49" value="&lt;div&gt;if (replica.logEndOffsetMetadata.messageOffset &amp;lt; newHighWatermark.messageOffset &amp;amp;&amp;amp;&amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;(curTime - replica.lastCaughtUpTimeMs &amp;lt;= replicaLagTimeMaxMs&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;||isrState.maximalIsr.contains(replica.brokerId))) {&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; newHighWatermark = replica.logEndOffsetMetadata&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;}&lt;/span&gt;&lt;/div&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fillColor=#fff2cc;strokeColor=#d6b656;horizontal=1;align=left;verticalAlign=top;size=16;" vertex="1" parent="1">
           <mxGeometry x="1140" y="4620" width="500" height="85" as="geometry" />
+        </mxCell>
+        <mxCell id="cCUcoUPP7uHQ34zrdlK5-50" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.783;entryY=0.008;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0;exitY=0;exitDx=464;exitDy=34.25;exitPerimeter=0;" edge="1" parent="1" source="cCUcoUPP7uHQ34zrdlK5-7" target="cCUcoUPP7uHQ34zrdlK5-49">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1320" y="3640" as="sourcePoint" />
+            <mxPoint x="1532.7" y="4630" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>

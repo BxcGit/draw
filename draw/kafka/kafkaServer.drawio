@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-07-16T11:12:08.506Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="hqQZtCTj1mXXxrBjtSqK" version="24.6.5" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2024-07-16T11:31:21.012Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="cyXkQFo1_28AdpHzIAci" version="24.6.5" type="github" pages="2">
   <diagram name="第 1 页" id="A7dTB1FYtnh71Bejf-Xg">
     <mxGraphModel dx="1221" dy="660" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -472,14 +472,20 @@
         <mxCell id="cCUcoUPP7uHQ34zrdlK5-9" value="ReplicaFetcherManager" style="rounded=0;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;" vertex="1" parent="1">
           <mxGeometry x="456" y="3850" width="144" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="cCUcoUPP7uHQ34zrdlK5-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="cCUcoUPP7uHQ34zrdlK5-10" target="cCUcoUPP7uHQ34zrdlK5-12">
+        <mxCell id="cCUcoUPP7uHQ34zrdlK5-10" value="ReplicaFetcherThread" style="rounded=0;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="601" y="3920" width="139" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="cCUcoUPP7uHQ34zrdlK5-12" value="maybeFetch" style="rounded=0;whiteSpace=wrap;html=1;align=center;verticalAlign=top;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="680" y="3950" width="120" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="cCUcoUPP7uHQ34zrdlK5-14" value="partitionStates" style="rounded=0;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="693" y="4000" width="95" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="cCUcoUPP7uHQ34zrdlK5-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="cCUcoUPP7uHQ34zrdlK5-15" target="cCUcoUPP7uHQ34zrdlK5-14">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="cCUcoUPP7uHQ34zrdlK5-10" value="ReplicaFetcherThread" style="rounded=0;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;" vertex="1" parent="1">
-          <mxGeometry x="601" y="3920" width="144" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="cCUcoUPP7uHQ34zrdlK5-12" value="maybeFetch" style="rounded=0;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;" vertex="1" parent="1">
-          <mxGeometry x="819.25" y="3920" width="75" height="40" as="geometry" />
+        <mxCell id="cCUcoUPP7uHQ34zrdlK5-15" value="markFollowers" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="474" y="4005" width="95" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

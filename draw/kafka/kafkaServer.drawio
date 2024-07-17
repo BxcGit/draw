@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-07-17T14:45:54.803Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="HntyOm1Au9P2Y_u275il" version="24.6.5" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2024-07-17T14:49:24.200Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="MNfJJgHk1Wg9WU9x8lkD" version="24.6.5" type="github" pages="2">
   <diagram name="第 1 页" id="A7dTB1FYtnh71Bejf-Xg">
     <mxGraphModel dx="794" dy="420" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -659,6 +659,9 @@
         </mxCell>
         <mxCell id="cCUcoUPP7uHQ34zrdlK5-75" value="partitionState" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fillColor=#fff2cc;strokeColor=#d6b656;horizontal=1;align=center;verticalAlign=top;size=15;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="1410" y="5440" width="80" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="cCUcoUPP7uHQ34zrdlK5-76" value="Follower的HW取决于 leader的HW和自己的LEO的最小值&lt;div&gt;Follower的LEO取决于从Leader拉取的最后一个数据&lt;/div&gt;&lt;div&gt;Leader的HW取决于ISR集合的最小LEO&lt;/div&gt;&lt;div&gt;Leader的LEO取决于生产者推送的最后一个数据&lt;/div&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fillColor=#ffff88;strokeColor=none;horizontal=1;align=left;verticalAlign=top;size=18;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="555" y="5280" width="285" height="180" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

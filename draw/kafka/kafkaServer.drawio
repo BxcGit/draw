@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-07-18T11:50:47.329Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="ZczgVanHoTbI2yRks1iq" version="24.6.5" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2024-07-18T13:23:00.000Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="PpCiRJuc1MUIvVG_0Prb" version="24.6.5" type="github" pages="2">
   <diagram name="第 1 页" id="A7dTB1FYtnh71Bejf-Xg">
-    <mxGraphModel dx="1323" dy="700" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="794" dy="420" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -662,6 +662,27 @@
         </mxCell>
         <mxCell id="cCUcoUPP7uHQ34zrdlK5-76" value="Follower的HW取决于 leader的HW和自己的LEO的最小值&lt;div&gt;Follower的LEO取决于从Leader拉取的最后一个数据&lt;/div&gt;&lt;div&gt;Leader的HW取决于ISR集合的最小LEO&lt;/div&gt;&lt;div&gt;Leader的LEO取决于生产者推送的最后一个数据&lt;/div&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fillColor=#ffff88;strokeColor=none;horizontal=1;align=left;verticalAlign=top;size=18;fontSize=16;" vertex="1" parent="1">
           <mxGeometry x="555" y="5280" width="285" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="cCUcoUPP7uHQ34zrdlK5-77" value="Controller" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fillColor=#ffff88;strokeColor=none;horizontal=1;align=center;verticalAlign=middle;size=18;fontStyle=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="65" y="5640" width="94" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="cCUcoUPP7uHQ34zrdlK5-78" value="zookeeper&lt;div&gt;元数据的持久存储，&lt;/div&gt;&lt;div&gt;分布式的协调&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fillColor=#ffff88;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="311.5" y="5710" width="162" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="cCUcoUPP7uHQ34zrdlK5-79" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="279.75" y="5890" width="86" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="cCUcoUPP7uHQ34zrdlK5-80" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="160" y="5890" width="79.75" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="cCUcoUPP7uHQ34zrdlK5-81" value="controller" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fillColor=#ffff88;strokeColor=none;horizontal=1;align=center;verticalAlign=top;size=18;" vertex="1" parent="1">
+          <mxGeometry x="160.75" y="5830" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="cCUcoUPP7uHQ34zrdlK5-82" value="Metadata" style="rounded=1;whiteSpace=wrap;html=1;arcSize=50;" vertex="1" parent="1">
+          <mxGeometry x="166" y="5780" width="64" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="cCUcoUPP7uHQ34zrdlK5-83" value="业务&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;msg&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;queue&lt;/div&gt;&lt;div&gt;patition&lt;/div&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fillColor=#ffff88;strokeColor=none;horizontal=1;align=center;verticalAlign=middle;size=18;" vertex="1" parent="1">
+          <mxGeometry x="53" y="5890" width="97" height="90" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

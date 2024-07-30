@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-07-30T07:44:17.170Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36" etag="knWb0PIEyIFbOen_ZlaC" version="24.7.1" type="github" pages="2">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36" version="24.7.6" pages="2">
   <diagram name="第 1 页" id="A7dTB1FYtnh71Bejf-Xg">
     <mxGraphModel dx="794" dy="420" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -690,25 +690,25 @@
             <mxPoint x="780" y="5670" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="QtQYFAqaL3j2f3eF1cQH-1" value="addr: port,&amp;nbsp;&lt;div&gt;add:port/kafka chroot&lt;/div&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fillColor=#ffff88;strokeColor=none;horizontal=1;align=left;verticalAlign=top;size=18;" vertex="1" parent="1">
+        <mxCell id="QtQYFAqaL3j2f3eF1cQH-1" value="addr: port,&amp;nbsp;&lt;div&gt;add:port/kafka chroot&lt;/div&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fillColor=#ffff88;strokeColor=none;horizontal=1;align=left;verticalAlign=top;size=18;" parent="1" vertex="1">
           <mxGeometry x="83" y="6220" width="152" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="QtQYFAqaL3j2f3eF1cQH-2" value="initZkClient(time)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+        <mxCell id="QtQYFAqaL3j2f3eF1cQH-2" value="initZkClient(time)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
           <mxGeometry x="80" y="6320" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="QtQYFAqaL3j2f3eF1cQH-3" value="&lt;span style=&quot;text-align: left;&quot;&gt;val brokerInfo = createBrokerInfo&lt;/span&gt;&lt;br style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;text-align: left;&quot;&gt;val brokerEpoch = zkClient.registerBroker(brokerInfo)&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+        <mxCell id="QtQYFAqaL3j2f3eF1cQH-3" value="&lt;span style=&quot;text-align: left;&quot;&gt;val brokerInfo = createBrokerInfo&lt;/span&gt;&lt;br style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;text-align: left;&quot;&gt;val brokerEpoch = zkClient.registerBroker(brokerInfo)&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
           <mxGeometry x="80" y="6400" width="304" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="QtQYFAqaL3j2f3eF1cQH-5" value="尝试创建root节点" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fillColor=#ffff88;strokeColor=none;horizontal=1;align=left;verticalAlign=middle;size=18;" vertex="1" parent="1">
+        <mxCell id="QtQYFAqaL3j2f3eF1cQH-5" value="尝试创建root节点" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fillColor=#ffff88;strokeColor=none;horizontal=1;align=left;verticalAlign=middle;size=18;" parent="1" vertex="1">
           <mxGeometry x="255.75" y="6320" width="110" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="QtQYFAqaL3j2f3eF1cQH-6" value="创建临时节点" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fillColor=#ffff88;strokeColor=none;horizontal=1;align=center;verticalAlign=middle;size=18;" vertex="1" parent="1">
+        <mxCell id="QtQYFAqaL3j2f3eF1cQH-6" value="创建临时节点" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fillColor=#ffff88;strokeColor=none;horizontal=1;align=center;verticalAlign=middle;size=18;" parent="1" vertex="1">
           <mxGeometry x="407.75" y="6400" width="110" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="QtQYFAqaL3j2f3eF1cQH-7" value="KafkaController" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+        <mxCell id="QtQYFAqaL3j2f3eF1cQH-7" value="KafkaController" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
           <mxGeometry x="80" y="6480" width="290" height="190" as="geometry" />
         </mxCell>
-        <mxCell id="QtQYFAqaL3j2f3eF1cQH-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.75;entryY=0;entryDx=0;entryDy=0;dashed=1;" edge="1" parent="1" source="QtQYFAqaL3j2f3eF1cQH-8" target="QtQYFAqaL3j2f3eF1cQH-35">
+        <mxCell id="QtQYFAqaL3j2f3eF1cQH-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.75;entryY=0;entryDx=0;entryDy=0;dashed=1;" parent="1" source="QtQYFAqaL3j2f3eF1cQH-8" target="QtQYFAqaL3j2f3eF1cQH-35" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="497" y="6635" />
@@ -716,13 +716,13 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="QtQYFAqaL3j2f3eF1cQH-8" value="&lt;span style=&quot;text-align: left;&quot;&gt;startup()&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+        <mxCell id="QtQYFAqaL3j2f3eF1cQH-8" value="&lt;span style=&quot;text-align: left;&quot;&gt;startup()&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
           <mxGeometry x="329.5" y="6620" width="106" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="QtQYFAqaL3j2f3eF1cQH-14" value="&lt;span style=&quot;text-align: left;&quot;&gt;controllerContext&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="QtQYFAqaL3j2f3eF1cQH-14" value="&lt;span style=&quot;text-align: left;&quot;&gt;controllerContext&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="90" y="6610" width="106" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="QtQYFAqaL3j2f3eF1cQH-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.25;entryDx=0;entryDy=0;dashed=1;" edge="1" parent="1">
+        <mxCell id="QtQYFAqaL3j2f3eF1cQH-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.25;entryDx=0;entryDy=0;dashed=1;" parent="1" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="140" y="6540" as="sourcePoint" />
             <mxPoint x="521" y="6526.5" as="targetPoint" />
@@ -732,30 +732,30 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="QtQYFAqaL3j2f3eF1cQH-17" value="&lt;span style=&quot;text-align: left;&quot;&gt;EventManager&lt;/span&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="QtQYFAqaL3j2f3eF1cQH-17" value="&lt;span style=&quot;text-align: left;&quot;&gt;EventManager&lt;/span&gt;" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="87" y="6541" width="106" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="QtQYFAqaL3j2f3eF1cQH-18" value="ControllerEventManager" style="rounded=0;whiteSpace=wrap;html=1;align=center;verticalAlign=top;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+        <mxCell id="QtQYFAqaL3j2f3eF1cQH-18" value="ControllerEventManager" style="rounded=0;whiteSpace=wrap;html=1;align=center;verticalAlign=top;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
           <mxGeometry x="521" y="6480" width="239" height="190" as="geometry" />
         </mxCell>
-        <mxCell id="QtQYFAqaL3j2f3eF1cQH-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;curved=1;" edge="1" parent="1" source="QtQYFAqaL3j2f3eF1cQH-19" target="QtQYFAqaL3j2f3eF1cQH-21">
+        <mxCell id="QtQYFAqaL3j2f3eF1cQH-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;curved=1;" parent="1" source="QtQYFAqaL3j2f3eF1cQH-19" target="QtQYFAqaL3j2f3eF1cQH-21" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="QtQYFAqaL3j2f3eF1cQH-29" value="process" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="QtQYFAqaL3j2f3eF1cQH-28">
+        <mxCell id="QtQYFAqaL3j2f3eF1cQH-29" value="process" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="QtQYFAqaL3j2f3eF1cQH-28" vertex="1" connectable="0">
           <mxGeometry x="-0.3637" y="-7" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="QtQYFAqaL3j2f3eF1cQH-19" value="queue" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=13.33349609375;rotation=-90;verticalAlign=middle;labelPosition=center;verticalLabelPosition=middle;align=center;textDirection=vertical-lr;fillColor=#f0a30a;fontColor=#000000;strokeColor=#BD7000;" vertex="1" parent="1">
+        <mxCell id="QtQYFAqaL3j2f3eF1cQH-19" value="queue" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=13.33349609375;rotation=-90;verticalAlign=middle;labelPosition=center;verticalLabelPosition=middle;align=center;textDirection=vertical-lr;fillColor=#f0a30a;fontColor=#000000;strokeColor=#BD7000;" parent="1" vertex="1">
           <mxGeometry x="620.38" y="6490.13" width="40.25" height="95" as="geometry" />
         </mxCell>
-        <mxCell id="QtQYFAqaL3j2f3eF1cQH-20" value="&lt;span style=&quot;text-align: left;&quot;&gt;ControllerEventThread&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+        <mxCell id="QtQYFAqaL3j2f3eF1cQH-20" value="&lt;span style=&quot;text-align: left;&quot;&gt;ControllerEventThread&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
           <mxGeometry x="567.25" y="6620" width="152.75" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="QtQYFAqaL3j2f3eF1cQH-21" value="&lt;span style=&quot;text-align: left;&quot;&gt;ControllerEventProcessor&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;" vertex="1" parent="1">
+        <mxCell id="QtQYFAqaL3j2f3eF1cQH-21" value="&lt;span style=&quot;text-align: left;&quot;&gt;ControllerEventProcessor&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;" parent="1" vertex="1">
           <mxGeometry x="567" y="6575" width="156" height="35" as="geometry" />
         </mxCell>
-        <mxCell id="QtQYFAqaL3j2f3eF1cQH-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;curved=1;" edge="1" parent="1" source="QtQYFAqaL3j2f3eF1cQH-20" target="QtQYFAqaL3j2f3eF1cQH-19">
+        <mxCell id="QtQYFAqaL3j2f3eF1cQH-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;curved=1;" parent="1" source="QtQYFAqaL3j2f3eF1cQH-20" target="QtQYFAqaL3j2f3eF1cQH-19" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="530" y="6640" />
@@ -763,37 +763,46 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="QtQYFAqaL3j2f3eF1cQH-26" value="take" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="QtQYFAqaL3j2f3eF1cQH-25">
+        <mxCell id="QtQYFAqaL3j2f3eF1cQH-26" value="take" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="QtQYFAqaL3j2f3eF1cQH-25" vertex="1" connectable="0">
           <mxGeometry x="-0.0468" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="QtQYFAqaL3j2f3eF1cQH-30" value="Handler&lt;div&gt;对zk的event处理&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fillColor=#ffff88;strokeColor=#36393d;" vertex="1" parent="1">
+        <mxCell id="QtQYFAqaL3j2f3eF1cQH-30" value="Handler&lt;div&gt;对zk的event处理&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fillColor=#ffff88;strokeColor=#36393d;" parent="1" vertex="1">
           <mxGeometry x="231" y="6541" width="105" height="29" as="geometry" />
         </mxCell>
-        <mxCell id="QtQYFAqaL3j2f3eF1cQH-31" value="&amp;nbsp;isActive: Boolean = activeControllerId == config.brokerId&lt;div&gt;静态文件内容和zookeeper存储的内容&lt;/div&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fillColor=#ffff88;strokeColor=none;horizontal=1;align=left;verticalAlign=top;size=18;" vertex="1" parent="1">
+        <mxCell id="QtQYFAqaL3j2f3eF1cQH-31" value="&amp;nbsp;isActive: Boolean = activeControllerId == config.brokerId&lt;div&gt;静态文件内容和zookeeper存储的内容&lt;/div&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fillColor=#ffff88;strokeColor=none;horizontal=1;align=left;verticalAlign=top;size=18;" parent="1" vertex="1">
           <mxGeometry x="76" y="6690" width="319" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="QtQYFAqaL3j2f3eF1cQH-35" value="&lt;div style=&quot;text-align: left;&quot;&gt;def startup() = {&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&amp;nbsp; &amp;nbsp; // 注册改变事件处理&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&amp;nbsp; &amp;nbsp; zkClient.registerStateChangeHandler(new StateChangeHandler {&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; override val name: String = StateChangeHandlers.ControllerHandler&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; override def afterInitializingSession(): Unit = {&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&amp;nbsp; &amp;nbsp; // 改变事件推给eventManager处理&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; eventManager.put(RegisterBrokerAndReelect)&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; }&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; override def beforeInitializingSession(): Unit = {&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; val queuedEvent = eventManager.clearAndPut(Expire)&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; queuedEvent.awaitProcessing()&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; }&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&amp;nbsp; &amp;nbsp; })&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&amp;nbsp; &amp;nbsp; // 推送一个开始事件&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&amp;nbsp; &amp;nbsp; eventManager.put(Startup)&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&amp;nbsp; &amp;nbsp; eventManager.start()&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;}&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="QtQYFAqaL3j2f3eF1cQH-35" value="&lt;div style=&quot;text-align: left;&quot;&gt;def startup() = {&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&amp;nbsp; &amp;nbsp; // 注册改变事件处理&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&amp;nbsp; &amp;nbsp; zkClient.registerStateChangeHandler(new StateChangeHandler {&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; override val name: String = StateChangeHandlers.ControllerHandler&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; override def afterInitializingSession(): Unit = {&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&amp;nbsp; &amp;nbsp; // 改变事件推给eventManager处理&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; eventManager.put(RegisterBrokerAndReelect)&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; }&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; override def beforeInitializingSession(): Unit = {&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; val queuedEvent = eventManager.clearAndPut(Expire)&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; queuedEvent.awaitProcessing()&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; }&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&amp;nbsp; &amp;nbsp; })&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&amp;nbsp; &amp;nbsp; // 推送一个开始事件&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&amp;nbsp; &amp;nbsp; eventManager.put(Startup)&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&amp;nbsp; &amp;nbsp; eventManager.start()&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;}&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="36" y="6880" width="614" height="270" as="geometry" />
         </mxCell>
-        <mxCell id="QtQYFAqaL3j2f3eF1cQH-39" value="registerZNodeChangeHandlerAndCheckExistence" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fillColor=#ffff88;strokeColor=none;horizontal=1;align=left;verticalAlign=top;size=18;" vertex="1" parent="1">
+        <mxCell id="QtQYFAqaL3j2f3eF1cQH-39" value="registerZNodeChangeHandlerAndCheckExistence" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fillColor=#ffff88;strokeColor=none;horizontal=1;align=left;verticalAlign=top;size=18;" parent="1" vertex="1">
           <mxGeometry x="546" y="6910" width="284" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="QtQYFAqaL3j2f3eF1cQH-41" value="elect()" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fillColor=#ffff88;strokeColor=none;horizontal=1;align=left;verticalAlign=top;size=18;" vertex="1" parent="1">
+        <mxCell id="QtQYFAqaL3j2f3eF1cQH-41" value="elect()" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fillColor=#ffff88;strokeColor=none;horizontal=1;align=left;verticalAlign=top;size=18;" parent="1" vertex="1">
           <mxGeometry x="546" y="6974" width="64" height="36" as="geometry" />
         </mxCell>
-        <mxCell id="QtQYFAqaL3j2f3eF1cQH-42" value="只有一个broker会很安全的成为Controller" style="rounded=0;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;" vertex="1" parent="1">
+        <mxCell id="QtQYFAqaL3j2f3eF1cQH-42" value="只有一个broker会很安全的成为Controller" style="rounded=0;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;" parent="1" vertex="1">
           <mxGeometry x="645" y="6974" width="165" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="QtQYFAqaL3j2f3eF1cQH-45" value="&lt;span style=&quot;text-align: left;&quot;&gt;onControllerFailover&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fillColor=#cdeb8b;strokeColor=#36393d;" vertex="1" parent="1">
-          <mxGeometry x="556" y="7014" width="224" height="176" as="geometry" />
+        <mxCell id="QtQYFAqaL3j2f3eF1cQH-45" value="&lt;span style=&quot;text-align: left;&quot;&gt;onControllerFailover&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fillColor=#cdeb8b;strokeColor=#36393d;" parent="1" vertex="1">
+          <mxGeometry x="556" y="7014" width="224" height="226" as="geometry" />
         </mxCell>
-        <mxCell id="QtQYFAqaL3j2f3eF1cQH-46" value="handler注册" style="rounded=0;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;" vertex="1" parent="1">
+        <mxCell id="QtQYFAqaL3j2f3eF1cQH-46" value="handler注册" style="rounded=0;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;" parent="1" vertex="1">
           <mxGeometry x="760" y="7050" width="75" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="QtQYFAqaL3j2f3eF1cQH-48" value="&lt;span style=&quot;text-align: left;&quot;&gt;initializeControllerContext&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;" vertex="1" parent="1">
-          <mxGeometry x="760" y="7090" width="150" height="30" as="geometry" />
+        <mxCell id="QtQYFAqaL3j2f3eF1cQH-48" value="&lt;span style=&quot;text-align: left;&quot;&gt;initializeControllerContext&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="761" y="7100" width="150" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="eJOsbbamTEuDSmGBZCmY-1" value="liveBrokers&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;allTopics&lt;/div&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fillColor=#ffff88;strokeColor=none;horizontal=1;align=left;verticalAlign=top;size=18;" vertex="1" parent="1">
+          <mxGeometry x="910" y="7070.5" width="103" height="63" as="geometry" />
+        </mxCell>
+        <mxCell id="eJOsbbamTEuDSmGBZCmY-2" value="&lt;span style=&quot;text-align: left;&quot;&gt;updateLeaderAndIsrCache&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="907.25" y="7130" width="162" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="eJOsbbamTEuDSmGBZCmY-4" value="&lt;span style=&quot;text-align: left;&quot;&gt;controllerChannelManager.startup()&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="907" y="7170" width="190" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

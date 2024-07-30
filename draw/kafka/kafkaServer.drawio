@@ -804,6 +804,9 @@
         <mxCell id="eJOsbbamTEuDSmGBZCmY-4" value="&lt;span style=&quot;text-align: left;&quot;&gt;controllerChannelManager.startup()&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;" vertex="1" parent="1">
           <mxGeometry x="907" y="7170" width="190" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="eJOsbbamTEuDSmGBZCmY-6" value="1. controller， 首先从zk获得了元数据，并发送给所有的broker。&lt;div&gt;2. broker 们更新自己的metadata到cache&lt;/div&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fillColor=#ffff88;strokeColor=none;horizontal=1;align=left;verticalAlign=top;size=18;" vertex="1" parent="1">
+          <mxGeometry x="761" y="7230" width="329" height="90" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>

@@ -807,8 +807,26 @@
         <mxCell id="eJOsbbamTEuDSmGBZCmY-6" value="1. controller， 首先从zk获得了元数据，并发送给所有的broker。&lt;div&gt;2. broker 们更新自己的metadata到cache&lt;/div&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fillColor=#ffff88;strokeColor=none;horizontal=1;align=left;verticalAlign=top;size=18;" parent="1" vertex="1">
           <mxGeometry x="761" y="7230" width="329" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="oONppIiru9c2k5xKPmBL-1" value="分区数 &amp;gt; 节点数&lt;div&gt;1. 业务膨胀：预分区&lt;/div&gt;&lt;div&gt;2. 回归业务隔离性 - AKF&lt;/div&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fillColor=#fff2cc;strokeColor=#d6b656;horizontal=1;align=left;verticalAlign=top;fontSize=16;" vertex="1" parent="1">
+        <mxCell id="oONppIiru9c2k5xKPmBL-1" value="分区数 &amp;gt; 节点数&lt;div&gt;1. 业务膨胀：预分区&lt;/div&gt;&lt;div&gt;2. 回归业务隔离性 - AKF&lt;/div&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fillColor=#fff2cc;strokeColor=#d6b656;horizontal=1;align=left;verticalAlign=top;fontSize=16;" parent="1" vertex="1">
           <mxGeometry x="53" y="7290" width="227" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="U_7AOLbZKywIK7PY3LfI-1" value="PartitionStateMachine" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="140" y="7479" width="200" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="U_7AOLbZKywIK7PY3LfI-2" value="partitionState" style="rounded=0;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="85" y="7519" width="75" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="U_7AOLbZKywIK7PY3LfI-3" value="doHandleStateChanges" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="300" y="7559" width="200" height="41" as="geometry" />
+        </mxCell>
+        <mxCell id="U_7AOLbZKywIK7PY3LfI-4" value="ControllerBrokerRequestBatch" style="rounded=0;whiteSpace=wrap;html=1;align=center;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="530" y="7479" width="230" height="151" as="geometry" />
+        </mxCell>
+        <mxCell id="U_7AOLbZKywIK7PY3LfI-5" value="newBatch" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="451.31" y="7519" width="153.37" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="U_7AOLbZKywIK7PY3LfI-6" value="sendRequestsToBrockers" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="432.66" y="7599" width="184.68" height="41" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

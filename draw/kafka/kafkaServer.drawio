@@ -820,13 +820,40 @@
           <mxGeometry x="300" y="7559" width="200" height="41" as="geometry" />
         </mxCell>
         <mxCell id="U_7AOLbZKywIK7PY3LfI-4" value="ControllerBrokerRequestBatch" style="rounded=0;whiteSpace=wrap;html=1;align=center;verticalAlign=top;" vertex="1" parent="1">
-          <mxGeometry x="530" y="7479" width="230" height="151" as="geometry" />
+          <mxGeometry x="530" y="7479" width="230" height="201" as="geometry" />
         </mxCell>
         <mxCell id="U_7AOLbZKywIK7PY3LfI-5" value="newBatch" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="451.31" y="7519" width="153.37" height="30" as="geometry" />
         </mxCell>
         <mxCell id="U_7AOLbZKywIK7PY3LfI-6" value="sendRequestsToBrockers" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="432.66" y="7599" width="184.68" height="41" as="geometry" />
+        </mxCell>
+        <mxCell id="U_7AOLbZKywIK7PY3LfI-7" value="leaderAndIsrRequestMap" style="rounded=0;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="681" y="7518" width="159" height="31" as="geometry" />
+        </mxCell>
+        <mxCell id="U_7AOLbZKywIK7PY3LfI-8" value="updateMetadataRequestPartitioninfoMap" style="rounded=0;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="680" y="7559" width="240" height="31" as="geometry" />
+        </mxCell>
+        <mxCell id="U_7AOLbZKywIK7PY3LfI-9" value="stopReplicaRequestMap" style="rounded=0;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="680" y="7600" width="240" height="31" as="geometry" />
+        </mxCell>
+        <mxCell id="U_7AOLbZKywIK7PY3LfI-10" value="updateMetaRquestBrokerSet" style="rounded=0;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="680" y="7640" width="240" height="31" as="geometry" />
+        </mxCell>
+        <mxCell id="U_7AOLbZKywIK7PY3LfI-12" value="KafkaApis" style="rounded=0;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="1080" y="7479" width="70.5" height="241" as="geometry" />
+        </mxCell>
+        <mxCell id="U_7AOLbZKywIK7PY3LfI-13" value="LEADER AND ISR" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="956.25" y="7518" width="163.75" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="U_7AOLbZKywIK7PY3LfI-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="U_7AOLbZKywIK7PY3LfI-14" target="U_7AOLbZKywIK7PY3LfI-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="U_7AOLbZKywIK7PY3LfI-14" value="UPDATE METADATA" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="956.25" y="7559" width="163.75" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="U_7AOLbZKywIK7PY3LfI-15" value="metaData&lt;div&gt;Cache&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="1206" y="7541" width="70" height="70" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

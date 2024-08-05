@@ -1,9 +1,72 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36" version="24.7.6">
   <diagram name="第 1 页" id="HwsnNXMcdGq4MnF3X8jA">
-    <mxGraphModel>
+    <mxGraphModel dx="1221" dy="626" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="hm22gIJzGdaK_Rvu-ePk-2" value="Consumer" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fillColor=#ffff88;strokeColor=none;horizontal=1;align=center;verticalAlign=middle;size=18;fontSize=22;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="40" y="50" width="130" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="hm22gIJzGdaK_Rvu-ePk-3" value="broker" style="rounded=0;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="220" y="370" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="hm22gIJzGdaK_Rvu-ePk-4" value="broker" style="rounded=0;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="220" y="450" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="hm22gIJzGdaK_Rvu-ePk-5" value="broker" style="rounded=0;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="220" y="530" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="hm22gIJzGdaK_Rvu-ePk-6" value="kafka和其他MQ不同的地方，kafka使用的是offset来进行消费，而其他MQ是，你消费完，就直接从队列里面抹除" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fillColor=#fff2cc;strokeColor=#d6b656;horizontal=1;align=left;verticalAlign=top;size=16;" vertex="1" parent="1">
+          <mxGeometry x="240" y="40" width="240" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="hm22gIJzGdaK_Rvu-ePk-10" value="Group" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="480" y="320" width="120" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="hm22gIJzGdaK_Rvu-ePk-12" value="consumer" style="rounded=0;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="580" y="345" width="75" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="hm22gIJzGdaK_Rvu-ePk-13" value="consumer" style="rounded=0;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="580" y="385" width="75" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="hm22gIJzGdaK_Rvu-ePk-14" value="Group" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="480" y="510" width="120" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="hm22gIJzGdaK_Rvu-ePk-15" value="为了保证顺序的问题，kafka的单个消费者可以消费多个分区，但是一个分区，不能被多个消费者消费" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fillColor=#fff2cc;strokeColor=#d6b656;horizontal=1;align=left;verticalAlign=top;size=16;" vertex="1" parent="1">
+          <mxGeometry x="510" y="40" width="240" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="hm22gIJzGdaK_Rvu-ePk-16" value="各个组之间的consumer维护了他们之间的partition偏移" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fillColor=#fff2cc;strokeColor=#d6b656;horizontal=1;align=left;verticalAlign=top;size=16;" vertex="1" parent="1">
+          <mxGeometry x="240" y="140" width="240" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="hm22gIJzGdaK_Rvu-ePk-18" value="scalable" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fillColor=#ffff88;strokeColor=none;horizontal=1;align=center;verticalAlign=middle;size=18;" vertex="1" parent="1">
+          <mxGeometry x="430" y="300" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="hm22gIJzGdaK_Rvu-ePk-19" value="P : offset" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fillColor=#ffff88;strokeColor=none;horizontal=1;align=left;verticalAlign=top;size=7;" vertex="1" parent="1">
+          <mxGeometry x="490" y="400" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="hm22gIJzGdaK_Rvu-ePk-20" value="P : offset" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fillColor=#ffff88;strokeColor=none;horizontal=1;align=left;verticalAlign=top;size=7;" vertex="1" parent="1">
+          <mxGeometry x="490" y="590" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="hm22gIJzGdaK_Rvu-ePk-21" value="consumer" style="rounded=0;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="580" y="535" width="75" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="hm22gIJzGdaK_Rvu-ePk-22" value="consumer" style="rounded=0;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="580" y="575" width="75" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="hm22gIJzGdaK_Rvu-ePk-23" value="&amp;nbsp;T1 : P1" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fillColor=#ffff88;strokeColor=none;horizontal=1;align=left;verticalAlign=top;size=12;" vertex="1" parent="1">
+          <mxGeometry x="160" y="382.5" width="70" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="hm22gIJzGdaK_Rvu-ePk-24" value="&amp;nbsp;T1 : P2" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fillColor=#ffff88;strokeColor=none;horizontal=1;align=left;verticalAlign=top;size=12;" vertex="1" parent="1">
+          <mxGeometry x="160" y="462.5" width="70" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="hm22gIJzGdaK_Rvu-ePk-25" value="&amp;nbsp;T1 : P3" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fillColor=#ffff88;strokeColor=none;horizontal=1;align=left;verticalAlign=top;size=12;" vertex="1" parent="1">
+          <mxGeometry x="160" y="542.5" width="70" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="hm22gIJzGdaK_Rvu-ePk-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0;entryDx=70;entryDy=12;entryPerimeter=0;curved=1;noJump=0;shadow=0;flowAnimation=1;strokeColor=default;" edge="1" parent="1" source="hm22gIJzGdaK_Rvu-ePk-12" target="hm22gIJzGdaK_Rvu-ePk-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hm22gIJzGdaK_Rvu-ePk-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0;entryDx=70;entryDy=18.5;entryPerimeter=0;elbow=vertical;curved=1;flowAnimation=1;" edge="1" parent="1" source="hm22gIJzGdaK_Rvu-ePk-22" target="hm22gIJzGdaK_Rvu-ePk-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>

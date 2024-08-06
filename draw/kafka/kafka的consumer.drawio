@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36" version="24.7.6">
   <diagram name="第 1 页" id="HwsnNXMcdGq4MnF3X8jA">
-    <mxGraphModel dx="1221" dy="626" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="794" dy="386" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -66,6 +66,24 @@
         </mxCell>
         <mxCell id="hm22gIJzGdaK_Rvu-ePk-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0;entryDx=70;entryDy=18.5;entryPerimeter=0;elbow=vertical;curved=1;flowAnimation=1;" edge="1" parent="1" source="hm22gIJzGdaK_Rvu-ePk-22" target="hm22gIJzGdaK_Rvu-ePk-24">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hm22gIJzGdaK_Rvu-ePk-28" value="问题：分布式 治理/协调&lt;div&gt;1. Coordinator&lt;/div&gt;&lt;div&gt;2.&amp;nbsp;&lt;/div&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fillColor=#ffff88;strokeColor=none;horizontal=1;align=left;verticalAlign=middle;size=18;" vertex="1" parent="1">
+          <mxGeometry x="690" y="400" width="220" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="hm22gIJzGdaK_Rvu-ePk-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="hm22gIJzGdaK_Rvu-ePk-29" target="hm22gIJzGdaK_Rvu-ePk-30">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hm22gIJzGdaK_Rvu-ePk-29" value="GroupCoordinator" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="190" y="710" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="hm22gIJzGdaK_Rvu-ePk-30" value="ConsumerCoordinator" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="490" y="710" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="hm22gIJzGdaK_Rvu-ePk-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="hm22gIJzGdaK_Rvu-ePk-29" target="hm22gIJzGdaK_Rvu-ePk-29">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hm22gIJzGdaK_Rvu-ePk-33" value="微服务：&lt;div&gt;状态&lt;/div&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fillColor=#ffff88;strokeColor=none;horizontal=1;align=left;verticalAlign=top;size=18;" vertex="1" parent="1">
+          <mxGeometry x="720" y="700" width="80" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

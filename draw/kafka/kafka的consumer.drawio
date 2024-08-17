@@ -244,7 +244,13 @@
           <mxGeometry x="700" y="1805" width="195" height="40" as="geometry" />
         </mxCell>
         <mxCell id="XoKFutNtdoXCLqgW8D2p-1" value="completedFetches" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fillColor=#ffff88;strokeColor=none;horizontal=1;align=center;verticalAlign=middle;size=18;" vertex="1" parent="1">
-          <mxGeometry x="600" y="1920" width="120" height="30" as="geometry" />
+          <mxGeometry x="540" y="1920" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="XoKFutNtdoXCLqgW8D2p-2" value="offset position" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fillColor=#ffff88;strokeColor=none;horizontal=1;align=left;verticalAlign=top;size=18;" vertex="1" parent="1">
+          <mxGeometry x="700" y="1920" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="XoKFutNtdoXCLqgW8D2p-3" value="submit offset" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fillColor=#ffff88;strokeColor=none;horizontal=1;align=center;verticalAlign=middle;size=18;" vertex="1" parent="1">
+          <mxGeometry x="540" y="1980" width="80" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

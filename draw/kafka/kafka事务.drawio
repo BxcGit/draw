@@ -55,6 +55,9 @@
         <mxCell id="UA6zIyGJkmY5iBWxBRzS-18" value="消息，信息传递的等级：&lt;div style=&quot;font-size: 14px;&quot;&gt;&amp;nbsp;&amp;lt;= 1 at most once&lt;/div&gt;&lt;div style=&quot;font-size: 14px;&quot;&gt;&amp;nbsp;&amp;gt;=1 at least once&lt;/div&gt;&lt;div style=&quot;font-size: 14px;&quot;&gt;&amp;nbsp;==1 exactly once&lt;/div&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fillColor=#fff2cc;strokeColor=#d6b656;horizontal=1;align=left;verticalAlign=top;size=15;fontStyle=1;fontSize=14;" vertex="1" parent="1">
           <mxGeometry x="70" y="360" width="160" height="90" as="geometry" />
         </mxCell>
+        <mxCell id="UA6zIyGJkmY5iBWxBRzS-19" value="topic&lt;div&gt;partitions&lt;/div&gt;&lt;div&gt;分区内部有序，外部无序&lt;/div&gt;&lt;div&gt;当有多个producer对一个分区生产数据时，结果无序&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;开发人员自己组织kafka的使用&lt;/div&gt;&lt;div&gt;Nproducer -&amp;gt; 1 Partition&lt;/div&gt;&lt;div&gt;无顺序性&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;1 Producer -&amp;gt; 1 Partition&lt;/div&gt;&lt;div&gt;顺序性&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;1 Producer -&amp;gt; N Partition&lt;/div&gt;&lt;div&gt;由一个producer将多条消息发送到多个分区&lt;/div&gt;&lt;div&gt;原子性&lt;/div&gt;&lt;div&gt;需求：N笔操作，具备事务能力&lt;/div&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fillColor=#fff2cc;strokeColor=#d6b656;horizontal=1;align=left;verticalAlign=middle;size=12;" vertex="1" parent="1">
+          <mxGeometry x="290" y="360" width="330" height="240" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>

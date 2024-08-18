@@ -52,6 +52,9 @@
         <mxCell id="UA6zIyGJkmY5iBWxBRzS-17" value="自己做的话，也可以考虑状态机&lt;div&gt;ID ：state&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;" vertex="1" parent="1">
           <mxGeometry x="600" y="160" width="140" height="50" as="geometry" />
         </mxCell>
+        <mxCell id="UA6zIyGJkmY5iBWxBRzS-18" value="消息，信息传递的等级：&lt;div style=&quot;font-size: 14px;&quot;&gt;&amp;nbsp;&amp;lt;= 1 at most once&lt;/div&gt;&lt;div style=&quot;font-size: 14px;&quot;&gt;&amp;nbsp;&amp;gt;=1 at least once&lt;/div&gt;&lt;div style=&quot;font-size: 14px;&quot;&gt;&amp;nbsp;==1 exactly once&lt;/div&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fillColor=#fff2cc;strokeColor=#d6b656;horizontal=1;align=left;verticalAlign=top;size=15;fontStyle=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="70" y="360" width="160" height="90" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>

@@ -49,6 +49,9 @@
         <mxCell id="UA6zIyGJkmY5iBWxBRzS-16" value="如果要保障幂等：&lt;div&gt;ACK&amp;nbsp; -1&amp;nbsp;&lt;/div&gt;&lt;div&gt;retry true&lt;/div&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fillColor=#ffff88;strokeColor=none;horizontal=1;align=left;verticalAlign=top;size=18;" vertex="1" parent="1">
           <mxGeometry x="478" y="50" width="102" height="50" as="geometry" />
         </mxCell>
+        <mxCell id="UA6zIyGJkmY5iBWxBRzS-17" value="自己做的话，也可以考虑状态机&lt;div&gt;ID ：state&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="600" y="160" width="140" height="50" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>

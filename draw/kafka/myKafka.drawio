@@ -10,6 +10,18 @@
         <mxCell id="sv9ay9whjCRLLHUJInV6-2" value="partitioner" style="rounded=0;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="80" y="120" width="120" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="sv9ay9whjCRLLHUJInV6-3" value="serializer" style="rounded=0;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="80" y="150" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="sv9ay9whjCRLLHUJInV6-4" value="ProducerInterceptor" style="rounded=0;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="80" y="180" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="sv9ay9whjCRLLHUJInV6-5" value="transactionManager" style="rounded=0;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="80" y="210" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="sv9ay9whjCRLLHUJInV6-6" value="RecordAccumulator" style="rounded=0;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="80" y="240" width="120" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>

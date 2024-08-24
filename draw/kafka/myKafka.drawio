@@ -73,16 +73,28 @@
         <mxCell id="sv9ay9whjCRLLHUJInV6-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.036;entryY=0.07;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="sv9ay9whjCRLLHUJInV6-11" target="sv9ay9whjCRLLHUJInV6-17">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="sv9ay9whjCRLLHUJInV6-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=5;fillColor=#ffff88;strokeColor=#9999FF;" edge="1" parent="1" source="sv9ay9whjCRLLHUJInV6-24">
+        <mxCell id="sv9ay9whjCRLLHUJInV6-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=5;fillColor=#ffff88;strokeColor=#9999FF;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="sv9ay9whjCRLLHUJInV6-24" target="sv9ay9whjCRLLHUJInV6-27">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="360" y="460" as="targetPoint" />
+            <mxPoint x="340" y="460" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="sv9ay9whjCRLLHUJInV6-24" value="KafkaProducer" style="rounded=0;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+        <mxCell id="sv9ay9whjCRLLHUJInV6-24" value="send()" style="rounded=0;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
           <mxGeometry x="80" y="440" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="sv9ay9whjCRLLHUJInV6-25" value="producer&lt;div&gt;Interceptor&lt;/div&gt;" style="rounded=0;html=1;align=center;verticalAlign=middle;horizontal=1;whiteSpace=wrap;fillColor=#cdeb8b;strokeColor=#36393d;" vertex="1" parent="1">
-          <mxGeometry x="250" y="370" width="60" height="180" as="geometry" />
+          <mxGeometry x="230" y="370" width="60" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="sv9ay9whjCRLLHUJInV6-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#9999FF;strokeWidth=5;" edge="1" parent="1" source="sv9ay9whjCRLLHUJInV6-27" target="sv9ay9whjCRLLHUJInV6-33">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sv9ay9whjCRLLHUJInV6-27" value="awaitMetadataUpdate" style="rounded=0;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="320" y="440" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="sv9ay9whjCRLLHUJInV6-33" value="RecordAccumulator.append" style="rounded=0;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="600" y="440" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="sv9ay9whjCRLLHUJInV6-35" value="Partitioner" style="rounded=0;html=1;align=center;verticalAlign=middle;horizontal=1;whiteSpace=wrap;fillColor=#cdeb8b;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="500" y="370" width="60" height="180" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

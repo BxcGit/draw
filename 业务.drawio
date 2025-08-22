@@ -46,7 +46,7 @@
             <mxPoint x="250" y="279.96" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Vrx5xl5LI6DO3FHCowuy-12" value="股权转换" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Vrx5xl5LI6DO3FHCowuy-11">
+        <mxCell id="Vrx5xl5LI6DO3FHCowuy-12" value="股权转化/上翻" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Vrx5xl5LI6DO3FHCowuy-11">
           <mxGeometry x="0.1699" y="1" relative="1" as="geometry">
             <mxPoint x="4" y="24" as="offset" />
           </mxGeometry>
@@ -65,6 +65,33 @@
         </mxCell>
         <mxCell id="Vrx5xl5LI6DO3FHCowuy-18" value="客户..." style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="150" y="60" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Vrx5xl5LI6DO3FHCowuy-25" value="投资合同" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="530" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Vrx5xl5LI6DO3FHCowuy-26" value="股权信息录入" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="460" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Vrx5xl5LI6DO3FHCowuy-27" value="新增股权资产" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="570" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Vrx5xl5LI6DO3FHCowuy-29" value="投放后" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="530" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Vrx5xl5LI6DO3FHCowuy-30" value="股权生效" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="460" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Vrx5xl5LI6DO3FHCowuy-31" value="投后事项合同" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="480" y="530" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Vrx5xl5LI6DO3FHCowuy-32" value="股权转化/上翻" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="480" y="460" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Vrx5xl5LI6DO3FHCowuy-33" value="退出方案执行" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="680" y="530" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Vrx5xl5LI6DO3FHCowuy-34" value="股权交割/二级市场减持" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="680" y="460" width="110" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

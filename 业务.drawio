@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36 Edg/139.0.0.0" version="28.1.0">
   <diagram name="第 1 页" id="NlA8JZPsFO4bj7UzdW7y">
-    <mxGraphModel dx="899" dy="503" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1293" dy="723" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -88,10 +88,13 @@
           <mxGeometry x="480" y="460" width="110" height="40" as="geometry" />
         </mxCell>
         <mxCell id="Vrx5xl5LI6DO3FHCowuy-33" value="退出方案执行" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="680" y="530" width="160" height="30" as="geometry" />
+          <mxGeometry x="680" y="530" width="270" height="30" as="geometry" />
         </mxCell>
         <mxCell id="Vrx5xl5LI6DO3FHCowuy-34" value="股权交割/二级市场减持" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="680" y="460" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Vrx5xl5LI6DO3FHCowuy-35" value="股权退出" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="840" y="460" width="110" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

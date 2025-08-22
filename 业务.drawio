@@ -10,7 +10,7 @@
         <mxCell id="Vrx5xl5LI6DO3FHCowuy-2" value="客户" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="240" y="40" width="80" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="Vrx5xl5LI6DO3FHCowuy-3" value="资产" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="Vrx5xl5LI6DO3FHCowuy-3" value="股权资产" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="400" y="40" width="80" height="40" as="geometry" />
         </mxCell>
       </root>

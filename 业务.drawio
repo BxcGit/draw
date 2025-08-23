@@ -174,8 +174,8 @@
         <mxCell id="Vrx5xl5LI6DO3FHCowuy-61" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Vrx5xl5LI6DO3FHCowuy-55" target="Vrx5xl5LI6DO3FHCowuy-60">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Vrx5xl5LI6DO3FHCowuy-62" value="创建" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Vrx5xl5LI6DO3FHCowuy-61">
-          <mxGeometry x="-0.3078" relative="1" as="geometry">
+        <mxCell id="Vrx5xl5LI6DO3FHCowuy-69" value="维护" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Vrx5xl5LI6DO3FHCowuy-61">
+          <mxGeometry x="-0.1861" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>

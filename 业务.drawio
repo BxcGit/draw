@@ -108,8 +108,19 @@
         <mxCell id="Vrx5xl5LI6DO3FHCowuy-38" value="股权信息录入" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="80" y="660" width="110" height="40" as="geometry" />
         </mxCell>
+        <mxCell id="Vrx5xl5LI6DO3FHCowuy-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Vrx5xl5LI6DO3FHCowuy-39" target="Vrx5xl5LI6DO3FHCowuy-40">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Vrx5xl5LI6DO3FHCowuy-42" value="入库" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Vrx5xl5LI6DO3FHCowuy-41">
+          <mxGeometry x="0.1" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="Vrx5xl5LI6DO3FHCowuy-39" value="人员" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="80" y="920" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Vrx5xl5LI6DO3FHCowuy-40" value="dongjian" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="260" y="920" width="80" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

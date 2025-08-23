@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36 Edg/139.0.0.0" version="28.1.0">
   <diagram name="第 1 页" id="NlA8JZPsFO4bj7UzdW7y">
-    <mxGraphModel dx="1293" dy="723" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="899" dy="503" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -108,8 +108,11 @@
         <mxCell id="Vrx5xl5LI6DO3FHCowuy-38" value="股权信息录入" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="80" y="660" width="110" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="Vrx5xl5LI6DO3FHCowuy-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Vrx5xl5LI6DO3FHCowuy-39" target="Vrx5xl5LI6DO3FHCowuy-40">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="Vrx5xl5LI6DO3FHCowuy-41" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="120" y="940" as="sourcePoint" />
+            <mxPoint x="260" y="940" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="Vrx5xl5LI6DO3FHCowuy-42" value="入库" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Vrx5xl5LI6DO3FHCowuy-41">
           <mxGeometry x="0.1" y="-2" relative="1" as="geometry">
@@ -117,10 +120,62 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="Vrx5xl5LI6DO3FHCowuy-39" value="人员" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="80" y="920" width="80" height="40" as="geometry" />
+          <mxGeometry x="65" y="927" width="80" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="Vrx5xl5LI6DO3FHCowuy-40" value="dongjian" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="260" y="920" width="80" height="40" as="geometry" />
+        <mxCell id="Vrx5xl5LI6DO3FHCowuy-40" value="董监高人员库" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="260" y="840" width="130" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="Vrx5xl5LI6DO3FHCowuy-52" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Vrx5xl5LI6DO3FHCowuy-47" target="Vrx5xl5LI6DO3FHCowuy-48">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Vrx5xl5LI6DO3FHCowuy-54" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Vrx5xl5LI6DO3FHCowuy-47" target="Vrx5xl5LI6DO3FHCowuy-53">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Vrx5xl5LI6DO3FHCowuy-47" value="对应的客户董监高人员委派" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="430" y="840" width="80" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Vrx5xl5LI6DO3FHCowuy-48" value="终止履职" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="560" y="810" width="80" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Vrx5xl5LI6DO3FHCowuy-49" value="人员" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="285" y="850" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Vrx5xl5LI6DO3FHCowuy-45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="Vrx5xl5LI6DO3FHCowuy-49" target="Vrx5xl5LI6DO3FHCowuy-47">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="414" y="940" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Vrx5xl5LI6DO3FHCowuy-46" value="履职" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Vrx5xl5LI6DO3FHCowuy-45">
+          <mxGeometry x="-0.141" y="-3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Vrx5xl5LI6DO3FHCowuy-50" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.75;exitDx=0;exitDy=0;entryX=0.984;entryY=0.691;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="Vrx5xl5LI6DO3FHCowuy-40" target="Vrx5xl5LI6DO3FHCowuy-39">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Vrx5xl5LI6DO3FHCowuy-51" value="出库" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Vrx5xl5LI6DO3FHCowuy-50">
+          <mxGeometry x="-0.0157" y="2" relative="1" as="geometry">
+            <mxPoint x="1" y="2" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Vrx5xl5LI6DO3FHCowuy-53" value="派出人员调整" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="560" y="900" width="80" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Vrx5xl5LI6DO3FHCowuy-56" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Vrx5xl5LI6DO3FHCowuy-55" target="Vrx5xl5LI6DO3FHCowuy-58">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="400" y="1070" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Vrx5xl5LI6DO3FHCowuy-57" value="董监高人员评价" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Vrx5xl5LI6DO3FHCowuy-56">
+          <mxGeometry x="-0.16" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Vrx5xl5LI6DO3FHCowuy-55" value="董监高专岗" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="160" y="1040" width="80" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Vrx5xl5LI6DO3FHCowuy-58" value="董监高专岗" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="410" y="1040" width="80" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

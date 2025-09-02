@@ -199,6 +199,19 @@
         <mxCell id="Vrx5xl5LI6DO3FHCowuy-63" value="培训记录" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="385" y="1130" width="80" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="Vrx5xl5LI6DO3FHCowuy-74" value="ChatClient" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="10" y="1560" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Vrx5xl5LI6DO3FHCowuy-75" value="ChatClientRequest&lt;div&gt;Spec&lt;/div&gt;" style="rounded=0;html=1;align=center;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="240" y="1560" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Vrx5xl5LI6DO3FHCowuy-77" value="" style="endArrow=open;html=1;endSize=12;startArrow=diamondThin;startSize=14;startFill=1;edgeStyle=orthogonalEdgeStyle;align=left;verticalAlign=bottom;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="Vrx5xl5LI6DO3FHCowuy-74" target="Vrx5xl5LI6DO3FHCowuy-75">
+          <mxGeometry x="0.0588" y="10" relative="1" as="geometry">
+            <mxPoint x="160" y="1590" as="sourcePoint" />
+            <mxPoint x="240" y="1590" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>

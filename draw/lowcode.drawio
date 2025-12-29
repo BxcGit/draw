@@ -4,11 +4,17 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="ueCYJpFYsVcRV2Cjs-yz-3" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="数据结构" vertex="1">
+        <mxCell id="ueCYJpFYsVcRV2Cjs-yz-3" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="表结构" vertex="1">
           <mxGeometry height="40" width="80" x="40" y="40" as="geometry" />
         </mxCell>
         <mxCell id="ueCYJpFYsVcRV2Cjs-yz-4" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="物料" vertex="1">
           <mxGeometry height="40" width="80" x="240" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ueCYJpFYsVcRV2Cjs-yz-7" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="组件编排顺序" vertex="1">
+          <mxGeometry height="40" width="80" x="40" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="ueCYJpFYsVcRV2Cjs-yz-8" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="物料的配置信息" vertex="1">
+          <mxGeometry height="40" width="80" x="240" y="120" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
